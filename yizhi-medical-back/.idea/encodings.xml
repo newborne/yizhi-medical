@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/yizhi-common/rabbit-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yizhi-common/service-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yizhi-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yizhi-service/service-hospital/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yizhi-service/service-user/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
