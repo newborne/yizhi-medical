@@ -7,9 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-user" />
         <module name="service-hospital" />
         <module name="common-util" />
+        <module name="service-login" />
         <module name="service-util" />
         <module name="yizhi-model" />
         <module name="rabbit-util" />
@@ -19,6 +19,7 @@
       <module name="common-util" target="1.8" />
       <module name="rabbit-util" target="1.8" />
       <module name="service-hospital" target="1.8" />
+      <module name="service-login" target="1.8" />
       <module name="service-user" target="1.8" />
       <module name="service-util" target="1.8" />
       <module name="yizhi-common" target="1.8" />
@@ -32,6 +33,7 @@
       <module name="common-util" options="-parameters" />
       <module name="rabbit-util" options="-parameters" />
       <module name="service-hospital" options="-parameters" />
+      <module name="service-login" options="-parameters" />
       <module name="service-user" options="-parameters" />
       <module name="service-util" options="-parameters" />
       <module name="yizhi-common" options="-parameters" />
