@@ -47,12 +47,62 @@ export const constantRoutes = [
     path: '/',
     component: Layout,
     redirect: '/dashboard',
-    children: [{
-      path: 'dashboard',
-      name: 'Dashboard',
-      component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
-    }]
+    children: [
+      {
+        path: 'dashboard',
+        name: 'Dashboard',
+        component: () => import('@/views/dashboard/index'),
+        meta: { title: 'Dashboard', icon: 'dashboard' }
+      }
+    ]
+  },
+  {
+    path: '/hospitalSetting',
+    component: Layout,
+    redirect: '/hospitalSetting/list',
+    name: '医院设置管理',
+    meta: { title: '医院设置管理', icon: 'example' },
+    children: [
+      {
+        path: 'list',
+        name: '医院设置列表',
+        component: () => import('@/views/hospitalSetting/list'),
+        meta: { title: '医院设置列表', icon: 'table' }
+      },
+      {
+        path: 'add',
+        name: '医院设置添加',
+        component: () => import('@/views/hospitalSetting/add'),
+        meta: { title: '医院设置添加', icon: 'tree' }
+      },
+      {
+        path: 'edit/:id',
+        name: '医院设置编辑',
+        component: () => import('@/views/hospitalSetting/add'),
+        meta: { title: '医院设置编辑', noCache: true },
+        hidden: true
+      }
+      // {
+      //   path: "hospital/list",
+      //   name: "医院列表",
+      //   component: () => import("@/views/hospital/list"),
+      //   meta: { title: "医院列表", icon: "table" }
+      // },
+      // {
+      //   path: "hospital/show/:id",
+      //   name: "查看",
+      //   component: () => import("@/views/hospital/show"),
+      //   meta: { title: "查看", noCache: true },
+      //   hidden: true
+      // },
+      // {
+      //   path: "hospital/schedule/:hoscode",
+      //   name: "排班",
+      //   component: () => import("@/views/hospital/schedule"),
+      //   meta: { title: "排班", noCache: true },
+      //   hidden: true
+      // }
+    ]
   },
 
   {
@@ -120,13 +170,15 @@ export const constantRoutes = [
             children: [
               {
                 path: 'menu1-2-1',
-                component: () => import('@/views/nested/menu1/menu1-2/menu1-2-1'),
+                component: () =>
+                  import('@/views/nested/menu1/menu1-2/menu1-2-1'),
                 name: 'Menu1-2-1',
                 meta: { title: 'Menu1-2-1' }
               },
               {
                 path: 'menu1-2-2',
-                component: () => import('@/views/nested/menu1/menu1-2/menu1-2-2'),
+                component: () =>
+                  import('@/views/nested/menu1/menu1-2/menu1-2-2'),
                 name: 'Menu1-2-2',
                 meta: { title: 'Menu1-2-2' }
               }
@@ -163,11 +215,12 @@ export const constantRoutes = [
   { path: '*', redirect: '/404', hidden: true }
 ]
 
-const createRouter = () => new Router({
-  // mode: 'history', // require service support
-  scrollBehavior: () => ({ y: 0 }),
-  routes: constantRoutes
-})
+const createRouter = () =>
+  new Router({
+    // mode: 'history', // require service support
+    scrollBehavior: () => ({ y: 0 }),
+    routes: constantRoutes
+  })
 
 const router = createRouter()
 
