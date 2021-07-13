@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/yizhi-common/rabbit-util/rabbit-util.iml" filepath="$PROJECT_DIR$/yizhi-common/rabbit-util/rabbit-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-service/service-hospital/service-hospital.iml" filepath="$PROJECT_DIR$/yizhi-service/service-hospital/service-hospital.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-service/service-login/service-login.iml" filepath="$PROJECT_DIR$/yizhi-service/service-login/service-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yizhi-service/service-user/service-user.iml" filepath="$PROJECT_DIR$/yizhi-service/service-user/service-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-common/service-util/service-util.iml" filepath="$PROJECT_DIR$/yizhi-common/service-util/service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-common/yizhi-common.iml" filepath="$PROJECT_DIR$/yizhi-common/yizhi-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/yizhi-medical-back.iml" filepath="$PROJECT_DIR$/.idea/yizhi-medical-back.iml" />
