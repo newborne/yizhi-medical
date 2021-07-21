@@ -6,8 +6,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>yizhi-common</module>
-        <module>yizhi-model</module>
+        <module>yizhi-models</module>
         <module>yizhi-service</module>
+        <module>yizhi-service-client</module>
+        <module>yizhi-service-gateway</module>
     </modules>
     <groupId>com.newborne</groupId>
     <artifactId>yizhi-medical-back</artifactId>
@@ -33,6 +35,7 @@
         <aliyun.version>4.1.1</aliyun.version>
         <oss.version>3.9.1</oss.version>
         <jodatime.version>2.10.1</jodatime.version>
+        <pool2.version>2.6.0</pool2.version>
     </properties>
 
     <!--配置dependencyManagement锁定依赖的版本-->
@@ -122,9 +125,15 @@
                 <artifactId>joda-time</artifactId>
                 <version>${jodatime.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>${pool2.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
-
     <!-- 项目打包时会将java目录中的*.xml文件也进行打包 -->
     <build>
         <resources>
@@ -137,5 +146,5 @@
             </resource>
         </resources>
     </build>
-    
+
 </project>
