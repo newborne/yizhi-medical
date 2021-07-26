@@ -24,11 +24,7 @@
 </template>
 
 <script>
-import {
-  getHospitalSetting,
-  saveHospitalSetting,
-  updateHospitalSetting
-} from '@/api/hospitalSetting'
+import hospitalSetting from '@/api/hospitalSetting'
 
 export default {
   data() {
@@ -39,7 +35,7 @@ export default {
   created() {
     if (this.$route.params && this.$route.params.id) {
       const id = this.$route.params.id
-      this.getHospitalSetting(id)
+      this.findById(id)
     } else {
       // 表单数据清空
       this.hospitalSetting = {}
@@ -48,14 +44,14 @@ export default {
   mounted() {},
   methods: {
     // 根据id查询
-    getHospitalSetting(id) {
-      getHospitalSetting(id).then(response => {
+    findById(id) {
+      hospitalSetting.findById(id).then(response => {
         this.hospitalSetting = response.data
       })
     },
     // 添加
     save() {
-      saveHospitalSetting(this.hospitalSetting).then(response => {
+      hospitalSetting.save(this.hospitalSetting).then(response => {
         // 提示
         this.$message({
           type: 'success',
@@ -67,7 +63,7 @@ export default {
     },
     // 修改
     update() {
-      updateHospitalSetting(this.hospitalSetting).then(response => {
+      hospitalSetting.update(this.hospitalSetting).then(response => {
         // 提示
         this.$message({
           type: 'success',

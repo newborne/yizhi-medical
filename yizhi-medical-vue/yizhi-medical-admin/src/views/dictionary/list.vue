@@ -93,7 +93,7 @@ export default {
     }
   },
   created() {
-    this.getDictionaryList(1)
+    this.findChildrenList(1)
   },
   mounted() {},
   methods: {
@@ -106,22 +106,22 @@ export default {
       // 关闭弹框
       this.dialogImportVisible = false
       // 刷新页面
-      this.getDictionaryList(1)
+      this.findChildrenList(1)
     },
     // 导出数据字典
     exportData() {
       // 调用导出接口
       window.location.href =
-        'http://newborne.top:18080/admin/dictionary/exportData'
+        'http://newborne.top:8200/admin/dictionary/export'
     },
     // 数据字典列表
-    getDictionaryList(id) {
-      dictionary.dictionaryList(id).then(response => {
+    findChildrenList(id) {
+      dictionary.findChildrenList(id).then(response => {
         this.list = response.data
       })
     },
     getChildrens(tree, treeNode, resolve) {
-      dictionary.dictionaryList(tree.id).then(response => {
+      dictionary.findChildrenList(tree.id).then(response => {
         resolve(response.data)
       })
     }
