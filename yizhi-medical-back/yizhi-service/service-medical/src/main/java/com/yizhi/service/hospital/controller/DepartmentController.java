@@ -21,8 +21,8 @@ public class DepartmentController {
 
     //根据医院编号，查询医院所有科室列表
     @ApiOperation(value = "查-by-hospitalCode")
-    @GetMapping("findDepartmentTree/{hospitalCode}")
-    public Result findDepartmentTree(@PathVariable String hospitalCode) {
+    @GetMapping("tree/{hospitalCode}")
+    public Result findTree(@PathVariable String hospitalCode) {
         List<DepartmentVo> list = departmentService.findTree(hospitalCode);
         return Result.ok(list);
     }

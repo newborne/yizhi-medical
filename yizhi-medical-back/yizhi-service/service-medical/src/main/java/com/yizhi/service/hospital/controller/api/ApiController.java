@@ -5,9 +5,9 @@ import com.yizhi.common.util.exception.YizhiException;
 import com.yizhi.common.util.result.Result;
 import com.yizhi.common.util.result.ResultCodeEnum;
 
-import com.yizhi.models.model.hospital.Department;
-import com.yizhi.models.model.hospital.Hospital;
-import com.yizhi.models.model.hospital.Schedule;
+import com.yizhi.models.model.medical.Department;
+import com.yizhi.models.model.medical.Hospital;
+import com.yizhi.models.model.medical.Schedule;
 import com.yizhi.models.vo.hospital.ScheduleQueryVo;
 import com.yizhi.service.hospital.service.DepartmentService;
 import com.yizhi.service.hospital.service.HospitalService;
@@ -50,8 +50,8 @@ public class ApiController {
 
     //删除排班
     @ApiOperation(value = "删-排班")
-    @PostMapping("schedule/remove")
-    public Result remove(HttpServletRequest request) {
+    @PostMapping("schedule/delete")
+    public Result deleteSchedule(HttpServletRequest request) {
         //获取传递过来科室信息
         Map<String, String[]> requestMap = request.getParameterMap();
         Map<String, Object> paramMap = HttpRequestHelper.switchMap(requestMap);
@@ -67,8 +67,8 @@ public class ApiController {
 
     //查询排班接口
     @ApiOperation(value = "查-排班")
-    @PostMapping("schedule/list")
-    public Result findSchedule(HttpServletRequest request) {
+    @PostMapping("schedule/page")
+    public Result findSchedulePage(HttpServletRequest request) {
         //获取传递过来科室信息
         Map<String, String[]> requestMap = request.getParameterMap();
         Map<String, Object> paramMap = HttpRequestHelper.switchMap(requestMap);
@@ -87,7 +87,7 @@ public class ApiController {
         scheduleQueryVo.setHospitalCode(hospitalCode);
         scheduleQueryVo.setDepartCode(departCode);
         //调用service方法
-        Page<Schedule> pageModel = scheduleService.findAll(page,limit,scheduleQueryVo);
+        Page<Schedule> pageModel = scheduleService.findPage(page,limit,scheduleQueryVo);
         return Result.ok(pageModel);
     }
 
@@ -106,8 +106,8 @@ public class ApiController {
 
     //删除科室接口
     @ApiOperation(value = "删-科室")
-    @PostMapping("department/remove")
-    public Result removeDepartment(HttpServletRequest request) {
+    @PostMapping("department/delete")
+    public Result deleteDepartment(HttpServletRequest request) {
         //获取传递过来科室信息
         Map<String, String[]> requestMap = request.getParameterMap();
         Map<String, Object> paramMap = HttpRequestHelper.switchMap(requestMap);
@@ -137,7 +137,7 @@ public class ApiController {
         DepartmentQueryVo departmentQueryVo = new DepartmentQueryVo();
         departmentQueryVo.setHospitalCode(hospitalCode);
         //调用service方法
-        Page<Department> pageModel = departmentService.findAll(page,limit,departmentQueryVo);
+        Page<Department> pageModel = departmentService.findPage(page,limit,departmentQueryVo);
         return Result.ok(pageModel);
     }
 
@@ -173,7 +173,7 @@ public class ApiController {
     //查询医院
     @ApiOperation(value = "查-医院")
     @PostMapping("hospital/show")
-    public Result getHospital(HttpServletRequest request) {
+    public Result findHospital(HttpServletRequest request) {
         //获取传递过来医院信息
         Map<String, String[]> requestMap = request.getParameterMap();
         Map<String, Object> paramMap = HttpRequestHelper.switchMap(requestMap);
@@ -201,7 +201,7 @@ public class ApiController {
     //上传医院接口
     @ApiOperation(value = "增-医院")
     @PostMapping("saveHospital")
-    public Result saveHosp(HttpServletRequest request) {
+    public Result saveHospital(HttpServletRequest request) {
         //获取传递过来医院信息
         Map<String, String[]> requestMap = request.getParameterMap();
         Map<String, Object> paramMap = HttpRequestHelper.switchMap(requestMap);

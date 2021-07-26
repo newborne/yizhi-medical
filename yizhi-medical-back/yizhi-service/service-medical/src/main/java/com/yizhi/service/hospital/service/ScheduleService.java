@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.service;
 
 
-import com.yizhi.models.model.hospital.Schedule;
+import com.yizhi.models.model.medical.Schedule;
 import com.yizhi.models.vo.hospital.ScheduleOrderVo;
 import com.yizhi.models.vo.hospital.ScheduleQueryVo;
 import org.springframework.data.domain.Page;
@@ -14,7 +14,7 @@ public interface ScheduleService {
     void save(Map<String, Object> paramMap);
 
     //查询排班接口
-    Page<Schedule> findAll(int page, int limit, ScheduleQueryVo scheduleQueryVo);
+    Page<Schedule> findPage(int page, int limit, ScheduleQueryVo scheduleQueryVo);
 
     //删除排班
     void delete(String hospitalCode, String hospitalScheduleId);

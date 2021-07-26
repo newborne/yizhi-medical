@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.service;
 
 
-import com.yizhi.models.model.hospital.Department;
+import com.yizhi.models.model.medical.Department;
 import com.yizhi.models.vo.hospital.DepartmentQueryVo;
 import com.yizhi.models.vo.hospital.DepartmentVo;
 import org.springframework.data.domain.Page;
@@ -14,7 +14,7 @@ public interface DepartmentService {
     void save(Map<String, Object> paramMap);
 
     //查询科室接口
-    Page<Department> findAll(int page, int limit, DepartmentQueryVo departmentQueryVo);
+    Page<Department> findPage(int page, int limit, DepartmentQueryVo departmentQueryVo);
 
     //删除科室接口
     void delete(String hospitalCode, String departCode);

@@ -1,6 +1,6 @@
 package com.yizhi.service.hospital.service;
 
-import com.yizhi.models.model.hospital.Hospital;
+import com.yizhi.models.model.medical.Hospital;
 import com.yizhi.models.vo.hospital.HospitalQueryVo;
 import org.springframework.data.domain.Page;
 
@@ -15,7 +15,7 @@ public interface HospitalService {
     Hospital findByHospitalCode(String hospitalCode);
 
     //医院列表(条件查询分页)
-    Page<Hospital> findAll(Integer page, Integer limit, HospitalQueryVo hospitalQueryVo);
+    Page<Hospital> findPage(Integer page, Integer limit, HospitalQueryVo hospitalQueryVo);
 
     //更新医院上线状态
     void updateStatusById(String id, Integer status);
@@ -27,7 +27,7 @@ public interface HospitalService {
     String getHospitalNameByHospitalCode(String hospitalCode);
 
     //根据医院名称查询
-    List<Hospital> findAllByHospitalNameLike(String hospitalName);
+    List<Hospital> findListByHospitalNameLike(String hospitalName);
 
     //根据医院编号获取医院预约挂号详情
     Map<String, Object> findItemByHospitalCode(String hospitalCode);

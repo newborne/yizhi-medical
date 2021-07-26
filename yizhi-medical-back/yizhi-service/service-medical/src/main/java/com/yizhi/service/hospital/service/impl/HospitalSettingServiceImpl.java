@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yizhi.common.util.exception.YizhiException;
 import com.yizhi.common.util.result.ResultCodeEnum;
-import com.yizhi.models.model.hospital.HospitalSetting;
+import com.yizhi.models.model.medical.HospitalSetting;
 import com.yizhi.models.vo.order.SignInfoVo;
 import com.yizhi.service.hospital.mapper.HospitalSettingMapper;
 import com.yizhi.service.hospital.service.HospitalSettingService;

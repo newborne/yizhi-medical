@@ -26,7 +26,7 @@ public class DictionaryServiceImpl extends ServiceImpl<DictionaryMapper, Diction
     //根据数据id查询子数据列表
     @Override
     @Cacheable(value = "dictionary",keyGenerator = "keyGenerator")
-    public List<Dictionary> findChlidById(Long id) {
+    public List<Dictionary> findChlidrenListById(Long id) {
         QueryWrapper<Dictionary> wrapper = new QueryWrapper<>();
         wrapper.eq("parent_id",id);
         List<Dictionary> dictionaryList = baseMapper.selectList(wrapper);
@@ -101,11 +101,11 @@ public class DictionaryServiceImpl extends ServiceImpl<DictionaryMapper, Diction
 
     //根据dictionaryCode获取下级节点
     @Override
-    public List<Dictionary> findChildByCode(String dictionaryCode) {
+    public List<Dictionary> findChildrenListByCode(String dictionaryCode) {
         //根据dictionarycode获取对应id
         Dictionary dictionary = this.findByCode(dictionaryCode);
         //根据id获取子节点
-        List<Dictionary> chlid= this.findChlidById(dictionary.getId());
+        List<Dictionary> chlid= this.findChlidrenListById(dictionary.getId());
         return chlid;
     }
 
