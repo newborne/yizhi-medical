@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>dictionary-client</module>
-        <module>hospital-client</module>
+        <module>medical-client</module>
     </modules>
     <dependencies>
         <dependency>
@@ -27,6 +27,16 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.newborne</groupId>
+            <artifactId>yizhi-models</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.newborne</groupId>
+            <artifactId>common-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

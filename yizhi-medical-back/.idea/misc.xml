@@ -9,10 +9,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yizhi-common/common-util/pom.xml" />
         <option value="$PROJECT_DIR$/yizhi-common/service-util/pom.xml" />
-        <option value="$PROJECT_DIR$/yizhi-service/service-dictionary/pom.xml" />
         <option value="$PROJECT_DIR$/yizhi-hospital-manage/pom.xml" />
         <option value="$PROJECT_DIR$/hospital-manage/pom.xml" />
         <option value="$PROJECT_DIR$/yizhi-service-client/pom.xml" />
+        <option value="$PROJECT_DIR$/yizhi-service/pom.xml" />
+        <option value="$PROJECT_DIR$/yizhi-service/service-dictionary/pom.xml" />
       </list>
     </option>
   </component>

@@ -17,7 +17,7 @@ import java.util.List;
 @Api(tags = "数据字典")
 @RestController
 @RequestMapping("/admin/dictionary")
-@CrossOrigin
+//@CrossOrigin
 public class DictionaryController {
 
     @Autowired
@@ -27,7 +27,7 @@ public class DictionaryController {
     @ApiOperation(value = "导入")
     @PostMapping("importData")
     public Result importDictionary(MultipartFile file) {
-        dictionaryService.importDictionaryData(file);
+        dictionaryService.importData(file);
         return Result.ok();
     }
 
@@ -35,22 +35,22 @@ public class DictionaryController {
     @ApiOperation(value = "导出")
     @GetMapping("exportData")
     public void exportDictionary(HttpServletResponse response) {
-        dictionaryService.exportDictionaryData(response);
+        dictionaryService.exportData(response);
     }
 
     //根据dictionaryCode获取下级节点
     @ApiOperation(value = "查子节点-by-dictionaryCode")
-    @GetMapping("findByDictionaryCode/{dictionaryCode}")
-    public Result findByDictionaryCode(@PathVariable String dictionaryCode) {
-        List<Dictionary> list = dictionaryService.findByDictionaryCode(dictionaryCode);
+    @GetMapping("findChild/{dictionaryCode}")
+    public Result findChlid(@PathVariable String dictionaryCode) {
+        List<Dictionary> list = dictionaryService.findChildByCode(dictionaryCode);
         return Result.ok(list);
     }
 
     //根据数据id查询子数据列表
     @ApiOperation(value = "查子节点-by-id")
-    @GetMapping("findChildData/{id}")
-    public Result findChildData(@PathVariable Long id) {
-        List<Dictionary> list = dictionaryService.findChlidData(id);
+    @GetMapping("findChild/{id}")
+    public Result findChild(@PathVariable Long id) {
+        List<Dictionary> list = dictionaryService.findChlidById(id);
         return Result.ok(list);
     }
 
@@ -59,7 +59,7 @@ public class DictionaryController {
     @GetMapping("getName/{dictionaryCode}/{value}")
     public String getName(@PathVariable String dictionaryCode,
                           @PathVariable String value) {
-        String dictionaryName = dictionaryService.getDictionaryName(dictionaryCode,value);
+        String dictionaryName = dictionaryService.getName(dictionaryCode,value);
         return dictionaryName;
     }
 
@@ -67,7 +67,7 @@ public class DictionaryController {
     @ApiOperation(value = "查名称-by-value")
     @GetMapping("getName/{value}")
     public String getName(@PathVariable String value) {
-        String dictionaryName = dictionaryService.getDictionaryName("",value);
+        String dictionaryName = dictionaryService.getName("",value);
         return dictionaryName;
     }
 }

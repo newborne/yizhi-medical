@@ -7,13 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-hospital" />
+        <module name="service-medical" />
         <module name="common-util" />
+        <module name="medical-client" />
+        <module name="dictionary-client" />
         <module name="yizhi-models" />
-        <module name="hospital-client" />
         <module name="hospital-manage" />
         <module name="service-util" />
-        <module name="dictionary-client" />
         <module name="service-dictionary" />
         <module name="rabbit-util" />
         <module name="yizhi-service-gateway" />
@@ -22,12 +22,12 @@
     <bytecodeTargetLevel>
       <module name="common-util" target="1.8" />
       <module name="dictionary-client" target="1.8" />
-      <module name="hospital-client" target="1.8" />
       <module name="hospital-manage" target="1.8" />
+      <module name="medical-client" target="1.8" />
       <module name="rabbit-util" target="1.8" />
       <module name="service-dictionary" target="1.8" />
-      <module name="service-hospital" target="1.8" />
       <module name="service-login" target="1.8" />
+      <module name="service-medical" target="1.8" />
       <module name="service-user" target="1.8" />
       <module name="service-util" target="1.8" />
       <module name="yizhi-common" target="1.8" />
@@ -43,12 +43,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-util" options="-parameters" />
       <module name="dictionary-client" options="-parameters" />
-      <module name="hospital-client" options="-parameters" />
       <module name="hospital-manage" options="-parameters" />
+      <module name="medical-client" options="-parameters" />
       <module name="rabbit-util" options="-parameters" />
       <module name="service-dictionary" options="-parameters" />
-      <module name="service-hospital" options="-parameters" />
       <module name="service-login" options="-parameters" />
+      <module name="service-medical" options="-parameters" />
       <module name="service-user" options="-parameters" />
       <module name="service-util" options="-parameters" />
       <module name="yizhi-common" options="-parameters" />

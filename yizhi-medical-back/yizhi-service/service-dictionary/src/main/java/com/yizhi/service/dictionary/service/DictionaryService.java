@@ -10,17 +10,17 @@ import java.util.List;
 public interface DictionaryService extends IService<Dictionary> {
     
     //根据数据id查询子数据列表
-    List<Dictionary> findChlidData(Long id);
+    List<Dictionary> findChlidById(Long id);
 
     //导出数据字典接口
-    void exportDictionaryData(HttpServletResponse response);
+    void exportData(HttpServletResponse response);
 
     //导入数据字典
-    void importDictionaryData(MultipartFile file);
+    void importData(MultipartFile file);
 
     //根据dictionaryCode和value查询
-    String getDictionaryName(String dictionaryCode, String value);
+    String getName(String dictionaryCode, String value);
 
     //根据dictionaryCode获取下级节点
-    List<Dictionary> findByDictionaryCode(String dictionaryCode);
+    List<Dictionary> findChildByCode(String dictionaryCode);
 }
