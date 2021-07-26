@@ -52,7 +52,7 @@ export const constantRoutes = [
         path: 'dashboard',
         name: 'Dashboard',
         component: () => import('@/views/dashboard/index'),
-        meta: { title: 'Dashboard', icon: 'dashboard' }
+        meta: { title: '首页', icon: 'dashboard' }
       }
     ]
   },
@@ -104,7 +104,22 @@ export const constantRoutes = [
       // }
     ]
   },
-
+  {
+    path: '/dictionary',
+    component: Layout,
+    redirect: '/dictionary/list',
+    name: '数据管理',
+    alwaysShow: true,
+    meta: { title: '数据管理', icon: 'example' },
+    children: [
+      {
+        path: 'list',
+        name: '数据字典',
+        component: () => import('@/views/dictionary/list'),
+        meta: { title: '数据字典', icon: 'table' }
+      }
+    ]
+  },
   {
     path: '/example',
     component: Layout,

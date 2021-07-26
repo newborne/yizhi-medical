@@ -1,13 +1,13 @@
 <template>
   <svg class="icon" aria-hidden="true">
-    <use xlink:href="#icon-fanhui"></use>
+    <use xlink:href="#icon-fanhui" />
   </svg>
 </template>
 <script src="//at.alicdn.com/t/font_2531491_fa9t2joj7an.js"></script>
 <script>
 export default {
-  name: "PageDemo"
-};
+  name: 'PageDemo'
+}
 </script>
 
 <style type="text/css">
