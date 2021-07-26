@@ -3,15 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/yizhi-common/common-util/common-util.iml" filepath="$PROJECT_DIR$/yizhi-common/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yizhi-service-client/dictionary-client/dictionary-client.iml" filepath="$PROJECT_DIR$/yizhi-service-client/dictionary-client/dictionary-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yizhi-service-client/hospital-client/hospital-client.iml" filepath="$PROJECT_DIR$/yizhi-service-client/hospital-client/hospital-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hospital-manage/hospital-manage.iml" filepath="$PROJECT_DIR$/hospital-manage/hospital-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-common/rabbit-util/rabbit-util.iml" filepath="$PROJECT_DIR$/yizhi-common/rabbit-util/rabbit-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yizhi-service/service-dictionary/service-dictionary.iml" filepath="$PROJECT_DIR$/yizhi-service/service-dictionary/service-dictionary.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-service/service-hospital/service-hospital.iml" filepath="$PROJECT_DIR$/yizhi-service/service-hospital/service-hospital.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yizhi-service/service-login/service-login.iml" filepath="$PROJECT_DIR$/yizhi-service/service-login/service-login.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yizhi-service/service-user/service-user.iml" filepath="$PROJECT_DIR$/yizhi-service/service-user/service-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-common/service-util/service-util.iml" filepath="$PROJECT_DIR$/yizhi-common/service-util/service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-common/yizhi-common.iml" filepath="$PROJECT_DIR$/yizhi-common/yizhi-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/yizhi-medical-back.iml" filepath="$PROJECT_DIR$/.idea/yizhi-medical-back.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yizhi-model/yizhi-model.iml" filepath="$PROJECT_DIR$/yizhi-model/yizhi-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yizhi-models/yizhi-models.iml" filepath="$PROJECT_DIR$/yizhi-models/yizhi-models.iml" />
       <module fileurl="file://$PROJECT_DIR$/yizhi-service/yizhi-service.iml" filepath="$PROJECT_DIR$/yizhi-service/yizhi-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yizhi-service-client/yizhi-service-client.iml" filepath="$PROJECT_DIR$/yizhi-service-client/yizhi-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yizhi-service-gateway/yizhi-service-gateway.iml" filepath="$PROJECT_DIR$/yizhi-service-gateway/yizhi-service-gateway.iml" />
     </modules>
   </component>
 </project>

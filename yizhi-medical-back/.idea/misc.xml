@@ -9,13 +9,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/yizhi-common/common-util/pom.xml" />
         <option value="$PROJECT_DIR$/yizhi-common/service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/yizhi-service/service-dictionary/pom.xml" />
+        <option value="$PROJECT_DIR$/yizhi-hospital-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/hospital-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/yizhi-service-client/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/yizhi-service/service-user/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

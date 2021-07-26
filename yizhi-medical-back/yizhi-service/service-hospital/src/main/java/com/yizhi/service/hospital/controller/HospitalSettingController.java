@@ -3,10 +3,10 @@ package com.yizhi.service.hospital.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yizhi.common.util.result.Result;
-import com.yizhi.model.hospital.HospitalSetting;
+import com.yizhi.models.model.hospital.HospitalSetting;
 import com.yizhi.service.hospital.service.HospitalSettingService;
 import com.yizhi.service.util.utils.MD5;
-import com.yizhi.vo.hospital.HospitalSettingQueryVo;
+import com.yizhi.models.vo.hospital.HospitalSettingQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,14 +18,14 @@ import java.util.Random;
 
 @Api(tags = "医院设置")
 @RestController
-@RequestMapping("/admin/hospital/hospitalSetting")
+@RequestMapping("/admin/medical/hospitalSetting")
 @CrossOrigin
 public class HospitalSettingController {
     //注入service
     @Autowired
     private HospitalSettingService hospitalSettingService;
 
-    @ApiOperation(value = "医院设置-添加")
+    @ApiOperation(value = "增")
     @PostMapping("saveHospitalSetting")
     public Result saveHospitalSetting(@RequestBody HospitalSetting hospitalSetting) {
         //设置状态 1 使用 0 不能使用
@@ -42,8 +42,8 @@ public class HospitalSettingController {
         }
     }
 
-    @ApiOperation(value = "医院设置-逻辑删除")
-    @DeleteMapping("{id}")
+    @ApiOperation(value = "删-by-id")
+    @DeleteMapping("remove/{id}")
     public Result removeHospitalSetting(@PathVariable Long id) {
         boolean flag = hospitalSettingService.removeById(id);
         if (flag) {
@@ -53,14 +53,14 @@ public class HospitalSettingController {
         }
     }
 
-    @ApiOperation(value = "医院设置-批量删除")
+    @ApiOperation(value = "删-批量")
     @DeleteMapping("batchRemove")
     public Result batchRemoveHospitalSetting(@RequestBody List<Long> idList) {
         hospitalSettingService.removeByIds(idList);
         return Result.ok();
     }
 
-    @ApiOperation(value = "医院设置-修改")
+    @ApiOperation(value = "改-全部")
     @PostMapping("updateHospitalSetting")
     public Result updateHospitalSetting(@RequestBody HospitalSetting hospitalSetting) {
         boolean flag = hospitalSettingService.updateById(hospitalSetting);
@@ -71,9 +71,9 @@ public class HospitalSettingController {
         }
     }
 
-    @ApiOperation(value = "医院设置-状态锁定")
+    @ApiOperation(value = "改-状态")
     @PutMapping("lockHospitalSetting/{id}/{status}")
-    public Result lockHospitalSet(@PathVariable Long id,
+    public Result lockHospitalSetting(@PathVariable Long id,
                                   @PathVariable Integer status) {
         //根据id查询医院设置信息
         HospitalSetting hospitalSetting = hospitalSettingService.getById(id);
@@ -84,9 +84,9 @@ public class HospitalSettingController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "医院设置-发送密钥")
+    @ApiOperation(value = "发送密钥")
     @PutMapping("sendKey/{id}")
-    public Result lockHospitalSetting(@PathVariable Long id) {
+    public Result sendKey(@PathVariable Long id) {
         HospitalSetting hospitalSetting = hospitalSettingService.getById(id);
         String signKey = hospitalSetting.getSignKey();
         String hospitalCode = hospitalSetting.getHospitalCode();
@@ -94,17 +94,17 @@ public class HospitalSettingController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "医院设置-获取所有")
-    @GetMapping("findAll")
-    public Result findAllHospitalSetting() {
+    @ApiOperation(value = "查-全部")
+    @GetMapping("list")
+    public Result listHospitalSetting() {
         //调用service的方法
         List<HospitalSetting> list = hospitalSettingService.list();
         return Result.ok(list);
     }
 
-    @ApiOperation(value = "医院设置-条件查询和分页")
-    @PostMapping("findPageHospitalSetting/{current}/{limit}")
-    public Result findPageHospitalSetting(@PathVariable long current,
+    @ApiOperation(value = "查-条件&分页")
+    @PostMapping("pageHospitalSetting/{current}/{limit}")
+    public Result pageHospitalSetting(@PathVariable long current,
                                           @PathVariable long limit,
                                           @RequestBody(required = false) HospitalSettingQueryVo hospitalSettingQueryVo) {
         //创建page对象，传递当前页，每页记录数
@@ -126,9 +126,9 @@ public class HospitalSettingController {
         return Result.ok(pageHospitalSetting);
     }
 
-    @ApiOperation(value = "医院设置-根据id查找")
+    @ApiOperation(value = "查-id")
     @GetMapping("getHospitalSetting/{id}")
-    public Result getHospitalSettingting(@PathVariable Long id) {
+    public Result getHospitalSetting(@PathVariable Long id) {
         HospitalSetting hospitalSetting = hospitalSettingService.getById(id);
         return Result.ok(hospitalSetting);
     }
