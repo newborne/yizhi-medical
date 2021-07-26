@@ -9,7 +9,7 @@ export function saveHospitalSetting(hospitalSetting) {
   })
 }
 
-// 删——id
+// 删-by-id
 export function deleteHospitalSetting(id) {
   return request({
     url: `/admin/hospital/hospitalSetting/${id}`,
@@ -17,7 +17,7 @@ export function deleteHospitalSetting(id) {
   })
 }
 
-// 删——批量
+// 删-批量
 export function batchRemoveHospitalSetting(idList) {
   return request({
     url: `/admin/hospital/hospitalSetting/batchRemove`,
@@ -26,7 +26,7 @@ export function batchRemoveHospitalSetting(idList) {
   })
 }
 
-// 改——状态
+// 改-状态
 export function lockHospitalSetting(id, status) {
   return request({
     url: `/admin/hospital/hospitalSetting/lockHospitalSetting/${id}/${status}`,
@@ -34,7 +34,7 @@ export function lockHospitalSetting(id, status) {
   })
 }
 
-// 改——全部
+// 改-全部
 export function updateHospitalSetting(hospitalSetting) {
   return request({
     url: `/admin/hospital/hospitalSetting/updateHospitalSetting`,
@@ -43,7 +43,7 @@ export function updateHospitalSetting(hospitalSetting) {
   })
 }
 
-// 查——id
+// 查-by-id
 export function getHospitalSetting(id) {
   return request({
     url: `/admin/hospital/hospitalSetting/getHospitalSetting/${id}`,
@@ -51,7 +51,7 @@ export function getHospitalSetting(id) {
   })
 }
 
-// 查——条件、分页
+// 查-条件&分页
 export function getHospitalSettingList(current, limit, searchObj) {
   return request({
     url: `/admin/hospital/hospitalSetting/findPageHospitalSetting/${current}/${limit}`,
@@ -59,4 +59,3 @@ export function getHospitalSettingList(current, limit, searchObj) {
     data: searchObj // 使用json
   })
 }
-
