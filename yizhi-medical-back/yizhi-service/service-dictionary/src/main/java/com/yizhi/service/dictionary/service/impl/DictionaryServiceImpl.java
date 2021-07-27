@@ -26,22 +26,22 @@ public class DictionaryServiceImpl extends ServiceImpl<DictionaryMapper, Diction
     //根据数据id查询子数据列表
     @Override
     @Cacheable(value = "dictionary",keyGenerator = "keyGenerator")
-    public List<Dictionary> findChlidData(Long id) {
+    public List<Dictionary> findChlidById(Long id) {
         QueryWrapper<Dictionary> wrapper = new QueryWrapper<>();
         wrapper.eq("parent_id",id);
         List<Dictionary> dictionaryList = baseMapper.selectList(wrapper);
         //向list集合每个dictionary对象中设置hasChildren
         for (Dictionary dictionary:dictionaryList) {
             Long dictionaryId = dictionary.getId();
-            boolean isChild = this.isChildren(dictionaryId);
-            dictionary.setHasChildren(isChild);
+            boolean hasChildren = this.hasChildren(dictionaryId);
+            dictionary.setHasChildren(hasChildren);
         }
         return dictionaryList;
     }
 
     //导出数据字典接口
     @Override
-    public void exportDictionaryData(HttpServletResponse response) {
+    public void exportData(HttpServletResponse response) {
         //设置下载信息
         response.setContentType("application/vnd.ms-excel");
         response.setCharacterEncoding("utf-8");
@@ -69,7 +69,7 @@ public class DictionaryServiceImpl extends ServiceImpl<DictionaryMapper, Diction
     //导入数据字典
     @Override
     @CacheEvict(value = "dictionary", allEntries=true)
-    public void importDictionaryData(MultipartFile file) {
+    public void importData(MultipartFile file) {
         try {
             EasyExcel.read(file.getInputStream(),DictionaryExcelVo.class,new DictionaryListener(baseMapper)).sheet().doRead();
         } catch (IOException e) {
@@ -79,7 +79,7 @@ public class DictionaryServiceImpl extends ServiceImpl<DictionaryMapper, Diction
 
     //根据dictionarycode和value查询
     @Override
-    public String getDictionaryName(String dictionaryCode, String value) {
+    public String getName(String dictionaryCode, String value) {
         //如果dictionaryCode为空，直接根据value查询
         if(StringUtils.isEmpty(dictionaryCode)) {
             //直接根据value查询
@@ -89,7 +89,7 @@ public class DictionaryServiceImpl extends ServiceImpl<DictionaryMapper, Diction
             return dictionary.getName();
         } else {//如果dictionaryCode不为空，根据dictionaryCode和value查询
             //根据dictionarycode查询dictionary对象，得到dictionary的id值
-            Dictionary codeDictionary = this.getDictionaryByDictionaryCode(dictionaryCode);
+            Dictionary codeDictionary = this.findByCode(dictionaryCode);
             Long parent_id = codeDictionary.getId();
             //根据parent_id和value进行查询
             Dictionary finalDictionary = baseMapper.selectOne(new QueryWrapper<Dictionary>()
@@ -101,23 +101,23 @@ public class DictionaryServiceImpl extends ServiceImpl<DictionaryMapper, Diction
 
     //根据dictionaryCode获取下级节点
     @Override
-    public List<Dictionary> findByDictionaryCode(String dictionaryCode) {
+    public List<Dictionary> findChildByCode(String dictionaryCode) {
         //根据dictionarycode获取对应id
-        Dictionary dictionary = this.getDictionaryByDictionaryCode(dictionaryCode);
+        Dictionary dictionary = this.findByCode(dictionaryCode);
         //根据id获取子节点
-        List<Dictionary> chlidData = this.findChlidData(dictionary.getId());
-        return chlidData;
+        List<Dictionary> chlid= this.findChlidById(dictionary.getId());
+        return chlid;
     }
 
-    private Dictionary getDictionaryByDictionaryCode(String dictionaryCode) {
+    private Dictionary findByCode(String dictionaryCode) {
         QueryWrapper<Dictionary> wrapper = new QueryWrapper<>();
         wrapper.eq("dictionary_code",dictionaryCode);
-        Dictionary codeDictionary = baseMapper.selectOne(wrapper);
-        return codeDictionary;
+        Dictionary dictionary = baseMapper.selectOne(wrapper);
+        return dictionary;
     }
 
     //判断id下面是否有子节点
-    private boolean isChildren(Long id) {
+    private boolean hasChildren(Long id) {
         QueryWrapper<Dictionary> wrapper = new QueryWrapper<>();
         wrapper.eq("parent_id",id);
         Integer count = baseMapper.selectCount(wrapper);
