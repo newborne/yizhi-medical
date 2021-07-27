@@ -81,7 +81,7 @@
 </template>
 
 <script>
-import dictionary from '@/api/dictionary'
+import dictionaryApi from '@/api/dictionary'
 
 export default {
   data() {
@@ -111,17 +111,16 @@ export default {
     // 导出数据字典
     exportData() {
       // 调用导出接口
-      window.location.href =
-        'http://newborne.top:8200/admin/dictionary/export'
+      window.location.href = 'http://newborne.top:8200/admin/dictionary/export'
     },
     // 数据字典列表
     findChildrenList(id) {
-      dictionary.findChildrenList(id).then(response => {
+      dictionaryApi.findChildrenListById(id).then(response => {
         this.list = response.data
       })
     },
-    getChildrens(tree, treeNode, resolve) {
-      dictionary.findChildrenList(tree.id).then(response => {
+    getChildrens(tree, treeNode,resolve) {
+      dictionaryApi.findChildrenListById(tree.id).then(response => {
         resolve(response.data)
       })
     }

@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import hospitalSetting from '@/api/hospitalSetting'
+import hospitalSettingApi from '@/api/hospitalSetting'
 
 export default {
   data() {
@@ -45,13 +45,13 @@ export default {
   methods: {
     // 根据id查询
     findById(id) {
-      hospitalSetting.findById(id).then(response => {
+      hospitalSettingApi.findById(id).then(response => {
         this.hospitalSetting = response.data
       })
     },
     // 添加
     save() {
-      hospitalSetting.save(this.hospitalSetting).then(response => {
+      hospitalSettingApi.save(this.hospitalSetting).then(response => {
         // 提示
         this.$message({
           type: 'success',
@@ -63,7 +63,7 @@ export default {
     },
     // 修改
     update() {
-      hospitalSetting.update(this.hospitalSetting).then(response => {
+      hospitalSettingApi.update(this.hospitalSetting).then(response => {
         // 提示
         this.$message({
           type: 'success',

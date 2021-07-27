@@ -53,7 +53,7 @@ export default {
   },
 
   // 查-条件&分页
-  findList(current, limit, searchObj) {
+  findPage(current, limit, searchObj) {
     return request({
       url: `/admin/medical/hospitalSetting/page/${current}/${limit}`,
       method: 'post',
