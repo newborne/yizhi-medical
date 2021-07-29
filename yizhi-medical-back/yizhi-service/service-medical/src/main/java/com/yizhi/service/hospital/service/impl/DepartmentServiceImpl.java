@@ -2,8 +2,8 @@ package com.yizhi.service.hospital.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
 import com.yizhi.models.model.medical.Department;
-import com.yizhi.models.vo.hospital.DepartmentQueryVo;
-import com.yizhi.models.vo.hospital.DepartmentVo;
+import com.yizhi.models.vo.medical.DepartmentQueryVo;
+import com.yizhi.models.vo.medical.DepartmentVo;
 import com.yizhi.service.hospital.repository.DepartmentRepository;
 import com.yizhi.service.hospital.service.DepartmentService;
 import org.springframework.beans.BeanUtils;

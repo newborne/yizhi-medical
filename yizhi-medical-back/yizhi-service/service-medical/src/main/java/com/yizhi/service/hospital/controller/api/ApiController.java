@@ -8,21 +8,20 @@ import com.yizhi.common.util.result.ResultCodeEnum;
 import com.yizhi.models.model.medical.Department;
 import com.yizhi.models.model.medical.Hospital;
 import com.yizhi.models.model.medical.Schedule;
-import com.yizhi.models.vo.hospital.ScheduleQueryVo;
+import com.yizhi.models.vo.medical.ScheduleQueryVo;
 import com.yizhi.service.hospital.service.DepartmentService;
 import com.yizhi.service.hospital.service.HospitalService;
 import com.yizhi.service.hospital.service.HospitalSettingService;
 import com.yizhi.service.hospital.service.ScheduleService;
 import com.yizhi.service.util.helper.HttpRequestHelper;
 import com.yizhi.service.util.utils.MD5;
-import com.yizhi.models.vo.hospital.DepartmentQueryVo;
+import com.yizhi.models.vo.medical.DepartmentQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.data.domain.Page;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-@Api(tags = "医院Api")
+@Api(tags = "Hospital-Manage-Api")
 @RestController
 @RequestMapping("/api/medical")
 //@CrossOrigin

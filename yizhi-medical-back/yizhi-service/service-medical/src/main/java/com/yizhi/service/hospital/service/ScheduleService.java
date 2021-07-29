@@ -2,8 +2,8 @@ package com.yizhi.service.hospital.service;
 
 
 import com.yizhi.models.model.medical.Schedule;
-import com.yizhi.models.vo.hospital.ScheduleOrderVo;
-import com.yizhi.models.vo.hospital.ScheduleQueryVo;
+import com.yizhi.models.vo.medical.ScheduleOrderVo;
+import com.yizhi.models.vo.medical.ScheduleQueryVo;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

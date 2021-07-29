@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.service;
 
 import com.yizhi.models.model.medical.Hospital;
-import com.yizhi.models.vo.hospital.HospitalQueryVo;
+import com.yizhi.models.vo.medical.HospitalQueryVo;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

@@ -2,7 +2,7 @@ package com.yizhi.service.hospital.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
 import com.yizhi.models.model.medical.Hospital;
-import com.yizhi.models.vo.hospital.HospitalQueryVo;
+import com.yizhi.models.vo.medical.HospitalQueryVo;
 import com.yizhi.service.dictionary.client.DictionaryFeignClient;
 import com.yizhi.service.hospital.repository.HospitalRepository;
 import com.yizhi.service.hospital.service.HospitalService;

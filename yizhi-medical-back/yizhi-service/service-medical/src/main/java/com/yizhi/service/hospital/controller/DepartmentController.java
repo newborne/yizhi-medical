@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.controller;
 
 import com.yizhi.common.util.result.Result;
-import com.yizhi.models.vo.hospital.DepartmentVo;
+import com.yizhi.models.vo.medical.DepartmentVo;
 import com.yizhi.service.hospital.service.DepartmentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

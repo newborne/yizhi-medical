@@ -3,14 +3,15 @@ package com.yizhi.service.hospital.controller.api;
 import com.yizhi.common.util.result.Result;
 import com.yizhi.models.model.medical.Hospital;
 import com.yizhi.models.model.medical.Schedule;
-import com.yizhi.models.vo.hospital.DepartmentVo;
-import com.yizhi.models.vo.hospital.HospitalQueryVo;
-import com.yizhi.models.vo.hospital.ScheduleOrderVo;
+import com.yizhi.models.vo.medical.DepartmentVo;
+import com.yizhi.models.vo.medical.HospitalQueryVo;
+import com.yizhi.models.vo.medical.ScheduleOrderVo;
 import com.yizhi.models.vo.order.SignInfoVo;
 import com.yizhi.service.hospital.service.DepartmentService;
 import com.yizhi.service.hospital.service.HospitalService;
 import com.yizhi.service.hospital.service.HospitalSettingService;
 import com.yizhi.service.hospital.service.ScheduleService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Map;
 
+@Api(tags = "Yizhi-Medical-Api")
 @RestController
 @RequestMapping("/api/medical/hospital")
 public class MedicalApiController {

@@ -2,8 +2,8 @@ package com.yizhi.service.hospital.service;
 
 
 import com.yizhi.models.model.medical.Department;
-import com.yizhi.models.vo.hospital.DepartmentQueryVo;
-import com.yizhi.models.vo.hospital.DepartmentVo;
+import com.yizhi.models.vo.medical.DepartmentQueryVo;
+import com.yizhi.models.vo.medical.DepartmentVo;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

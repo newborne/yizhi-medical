@@ -6,7 +6,7 @@ import com.yizhi.common.util.result.Result;
 import com.yizhi.models.model.medical.HospitalSetting;
 import com.yizhi.service.hospital.service.HospitalSettingService;
 import com.yizhi.service.util.utils.MD5;
-import com.yizhi.models.vo.hospital.HospitalSettingQueryVo;
+import com.yizhi.models.vo.medical.HospitalSettingQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -3,7 +3,7 @@ package com.yizhi.service.hospital.controller;
 
 import com.yizhi.common.util.result.Result;
 import com.yizhi.models.model.medical.Hospital;
-import com.yizhi.models.vo.hospital.HospitalQueryVo;
+import com.yizhi.models.vo.medical.HospitalQueryVo;
 import com.yizhi.service.hospital.service.HospitalService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

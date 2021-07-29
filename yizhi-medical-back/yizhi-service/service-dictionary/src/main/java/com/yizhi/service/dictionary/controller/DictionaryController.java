@@ -40,7 +40,7 @@ public class DictionaryController {
 
     //根据dictionaryCode获取下级节点
     @ApiOperation(value = "查子节点-by-dictionaryCode")
-    @GetMapping("children/dictionaryCode{dictionaryCode}")
+    @GetMapping("children/dictionaryCode/{dictionaryCode}")
     public Result findChlidrenList(@PathVariable String dictionaryCode) {
         List<Dictionary> list = dictionaryService.findChildrenListByCode(dictionaryCode);
         return Result.ok(list);
