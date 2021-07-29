@@ -10,18 +10,18 @@
       <el-button
         type="primary"
         icon="el-icon-search"
-        @click="getHospitalSettingList()"
+        @click="findPage()"
       >查询</el-button>
     </el-form>
 
     <!-- 工具条 -->
-    <div>
+    <el-form :inline="true" class="demo-form-inline">
       <el-button
         type="danger"
         size="mini"
         @click="removeRows()"
       >批量删除</el-button>
-    </div>
+    </el-form>
 
     <el-table
       :data="list"
@@ -73,21 +73,21 @@
             type="danger"
             size="mini"
             icon="el-icon-delete"
-            @click="removeHospitalSettingById(scope.row.id)"
+            @click="removeById(scope.row.id)"
           >删除</el-button>
           <el-button
             v-if="scope.row.status == 1"
             type="primary"
             size="mini"
             icon="el-icon-delete"
-            @click="lockHospitalSetting(scope.row.id, 0)"
+            @click="updateStatus(scope.row.id, 0)"
           >锁定</el-button>
           <el-button
             v-if="scope.row.status == 0"
             type="danger"
             size="mini"
             icon="el-icon-delete"
-            @click="lockHospitalSetting(scope.row.id, 1)"
+            @click="updateStatus(scope.row.id, 1)"
           >取消锁定</el-button>
           <router-link :to="'/hospitalSetting/edit/' + scope.row.id">
             <el-button type="primary" size="mini" icon="el-icon-edit" />
@@ -95,6 +95,7 @@
         </template>
       </el-table-column>
     </el-table>
+
     <!-- 分页 -->
     <el-pagination
       :current-page="current"
@@ -102,18 +103,14 @@
       :total="total"
       style="padding: 30px 0; text-align: center"
       layout="total, prev, pager, next, jumper"
-      @current-change="getHospitalSettingList"
+      @current-change="findHospitalSettingList"
     />
+
   </div>
 </template>
 
 <script>
-import {
-  getHospitalSettingList,
-  deleteHospitalSetting,
-  lockHospitalSetting,
-  batchRemoveHospitalSetting
-} from '@/api/hospitalSetting'
+import hospitalSettingApi from '@/api/hospitalSetting'
 
 export default {
   data() {
@@ -128,15 +125,15 @@ export default {
   },
   created() {
     // 一般调用methods定义的方法，得到数据
-    this.getHospitalSettingList()
+    this.findPage()
   },
   mounted() {},
   methods: {
     // 锁定和取消锁定
-    lockHospitalSetting(id, status) {
-      lockHospitalSetting(id, status).then(response => {
+    updateStatus(id, status) {
+      hospitalSettingApi.updateStatus(id, status).then(response => {
         // 刷新
-        this.getHospitalSettingList()
+        this.findPage()
       })
     },
     // 获取选择复选框的id值
@@ -159,22 +156,23 @@ export default {
           idList.push(id)
         }
         // 调用接口
-        batchRemoveHospitalSetting(idList).then(response => {
+        hospitalSettingApi.deleteByIdInBatch(idList).then(response => {
           // 提示
           this.$message({
             type: 'success',
             message: '删除成功!'
           })
           // 刷新页面
-          this.getHospitalSettingList(1)
+          this.findPage(1)
         })
       })
     },
     // 医院设置列表
-    getHospitalSettingList(page = 1) {
+    findPage(page = 1) {
       // 添加当前页参数
       this.current = page
-      getHospitalSettingList(this.current, this.limit, this.searchObj)
+      hospitalSettingApi
+        .findPage(this.current, this.limit, this.searchObj)
         .then(response => {
           // 请求成功response是接口返回数据
           // 返回集合赋值list
@@ -188,7 +186,7 @@ export default {
         })
     },
     // 删除医院设置的方法
-    removeHospitalSettingById(id) {
+    removeById(id) {
       this.$confirm('此操作将永久删除医院是设置信息, 是否继续?', '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
@@ -196,14 +194,14 @@ export default {
       }).then(() => {
         // 确定执行then方法
         // 调用接口
-        deleteHospitalSetting(id).then(response => {
+        hospitalSettingApi.deleteById(id).then(response => {
           // 提示
           this.$message({
             type: 'success',
             message: '删除成功!'
           })
           // 刷新页面
-          this.getHospitalSettingList(1)
+          this.findPage(1)
         })
       })
     }
