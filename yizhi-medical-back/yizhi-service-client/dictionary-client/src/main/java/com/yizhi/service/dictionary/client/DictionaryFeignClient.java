@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface DictionaryFeignClient {
 
     //根据dictionaryCode和value查询
-    @GetMapping("/admin/dictionary/getName/{dictionaryCode}/{value}")
+    @GetMapping("/admin/dictionary/name/{dictionaryCode}/{value}")
     public String getName(@PathVariable("dictionaryCode") String dictionaryCode, @PathVariable("value") String value);
 
     //根据value查询
-    @GetMapping("/admin/dictionary/getName/{value}")
+    @GetMapping("/admin/dictionary/name/{value}")
     public String getName(@PathVariable("value") String value);
 }

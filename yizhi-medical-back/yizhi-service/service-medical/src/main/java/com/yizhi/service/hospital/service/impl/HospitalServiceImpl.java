@@ -69,10 +69,10 @@ public class HospitalServiceImpl implements HospitalService {
         //hospitalSetQueryVo转换Hospital对象
         Hospital hospital = new Hospital();
         BeanUtils.copyProperties(hospitalQueryVo,hospital);
-        //创建对象
-        Example<Hospital> example = Example.of(hospital,matcher);
+
+        Example<Hospital> example=Example.of(hospital,matcher);
         //调用方法实现查询
-        Page<Hospital> pages = hospitalRepository.findAll(example, pageable);
+        Page<Hospital> pages = hospitalRepository.findAll(example,pageable);
 
         //获取查询list集合，遍历进行医院等级封装
         pages.getContent().stream().forEach(item -> {
