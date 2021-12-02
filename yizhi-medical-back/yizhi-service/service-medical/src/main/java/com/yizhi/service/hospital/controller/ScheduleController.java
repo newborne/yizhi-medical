@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.controller;
 
 import com.yizhi.common.util.result.Result;
-import com.yizhi.models.model.hospital.Schedule;
+import com.yizhi.models.model.medical.Schedule;
 import com.yizhi.service.hospital.service.ScheduleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -22,8 +22,8 @@ public class ScheduleController {
 
     //根据医院编号 和 科室编号 ，查询排班规则数据
     @ApiOperation(value ="查-分页-by-hospitalCode&departCode")
-    @GetMapping("getScheduleRule/{page}/{limit}/{hospitalCode}/{departCode}")
-    public Result getScheduleRule(@PathVariable long page,
+    @GetMapping("bookingRule/{page}/{limit}/{hospitalCode}/{departCode}")
+    public Result findBookingRule(@PathVariable long page,
                                   @PathVariable long limit,
                                   @PathVariable String hospitalCode,
                                   @PathVariable String departCode) {
@@ -31,13 +31,13 @@ public class ScheduleController {
         return Result.ok(map);
     }
 
-//    //根据医院编号 、科室编号和工作日期，查询排班详细信息
-//    @ApiOperation(value = "查-详情-by-hospitalCode&departCode&workDate")
-//    @GetMapping("getScheduleDetail/{hospitalCode}/{departCode}/{workDate}")
-//    public Result getScheduleDetail( @PathVariable String hospitalCode,
-//                                     @PathVariable String departCode,
-//                                     @PathVariable String workDate) {
-//        List<Schedule> list = scheduleService.getDetailSchedule(hospitalCode,departCode,workDate);
-//        return Result.ok(list);
-//    }
+    //根据医院编号 、科室编号和工作日期，查询排班详细信息
+    @ApiOperation(value = "查-详情-by-hospitalCode&departCode&workDate")
+    @GetMapping("list/{hospitalCode}/{departCode}/{workDate}")
+    public Result findList( @PathVariable String hospitalCode,
+                                     @PathVariable String departCode,
+                                     @PathVariable String workDate) {
+        List<Schedule> list = scheduleService.findList(hospitalCode,departCode,workDate);
+        return Result.ok(list);
+    }
 }

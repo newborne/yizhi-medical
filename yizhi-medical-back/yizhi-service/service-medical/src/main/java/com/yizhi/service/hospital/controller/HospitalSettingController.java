@@ -3,10 +3,10 @@ package com.yizhi.service.hospital.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.yizhi.common.util.result.Result;
-import com.yizhi.models.model.hospital.HospitalSetting;
+import com.yizhi.models.model.medical.HospitalSetting;
 import com.yizhi.service.hospital.service.HospitalSettingService;
 import com.yizhi.service.util.utils.MD5;
-import com.yizhi.models.vo.hospital.HospitalSettingQueryVo;
+import com.yizhi.models.vo.medical.HospitalSettingQueryVo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,8 +26,8 @@ public class HospitalSettingController {
     private HospitalSettingService hospitalSettingService;
 
     @ApiOperation(value = "增")
-    @PostMapping("saveHospitalSetting")
-    public Result saveHospitalSetting(@RequestBody HospitalSetting hospitalSetting) {
+    @PostMapping("save")
+    public Result save(@RequestBody HospitalSetting hospitalSetting) {
         //设置状态 1 使用 0 不能使用
         hospitalSetting.setStatus(1);
         //签名秘钥
@@ -43,8 +43,8 @@ public class HospitalSettingController {
     }
 
     @ApiOperation(value = "删-by-id")
-    @DeleteMapping("remove/{id}")
-    public Result removeHospitalSetting(@PathVariable Long id) {
+    @DeleteMapping("delete/{id}")
+    public Result deleteById(@PathVariable Long id) {
         boolean flag = hospitalSettingService.removeById(id);
         if (flag) {
             return Result.ok();
@@ -54,15 +54,15 @@ public class HospitalSettingController {
     }
 
     @ApiOperation(value = "删-批量")
-    @DeleteMapping("batchRemove")
-    public Result batchRemoveHospitalSetting(@RequestBody List<Long> idList) {
+    @DeleteMapping("delete/batch")
+    public Result deleteByIdInBatch(@RequestBody List<Long> idList) {
         hospitalSettingService.removeByIds(idList);
         return Result.ok();
     }
 
     @ApiOperation(value = "改-全部")
-    @PostMapping("updateHospitalSetting")
-    public Result updateHospitalSetting(@RequestBody HospitalSetting hospitalSetting) {
+    @PostMapping("update")
+    public Result updateById(@RequestBody HospitalSetting hospitalSetting) {
         boolean flag = hospitalSettingService.updateById(hospitalSetting);
         if (flag) {
             return Result.ok();
@@ -72,8 +72,8 @@ public class HospitalSettingController {
     }
 
     @ApiOperation(value = "改-状态")
-    @PutMapping("lockHospitalSetting/{id}/{status}")
-    public Result lockHospitalSetting(@PathVariable Long id,
+    @PutMapping("updateStatus/{id}/{status}")
+    public Result updateStatus(@PathVariable Long id,
                                   @PathVariable Integer status) {
         //根据id查询医院设置信息
         HospitalSetting hospitalSetting = hospitalSettingService.getById(id);
@@ -96,15 +96,15 @@ public class HospitalSettingController {
 
     @ApiOperation(value = "查-全部")
     @GetMapping("list")
-    public Result listHospitalSetting() {
+    public Result findList() {
         //调用service的方法
         List<HospitalSetting> list = hospitalSettingService.list();
         return Result.ok(list);
     }
 
     @ApiOperation(value = "查-条件&分页")
-    @PostMapping("pageHospitalSetting/{current}/{limit}")
-    public Result pageHospitalSetting(@PathVariable long current,
+    @PostMapping("page/{current}/{limit}")
+    public Result findPage(@PathVariable long current,
                                           @PathVariable long limit,
                                           @RequestBody(required = false) HospitalSettingQueryVo hospitalSettingQueryVo) {
         //创建page对象，传递当前页，每页记录数
@@ -126,9 +126,9 @@ public class HospitalSettingController {
         return Result.ok(pageHospitalSetting);
     }
 
-    @ApiOperation(value = "查-id")
-    @GetMapping("getHospitalSetting/{id}")
-    public Result getHospitalSetting(@PathVariable Long id) {
+    @ApiOperation(value = "查-by-id")
+    @GetMapping("find/{id}")
+    public Result findById(@PathVariable Long id) {
         HospitalSetting hospitalSetting = hospitalSettingService.getById(id);
         return Result.ok(hospitalSetting);
     }

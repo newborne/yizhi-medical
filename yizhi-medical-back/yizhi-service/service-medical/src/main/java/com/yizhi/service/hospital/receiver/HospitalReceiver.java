@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.receiver;
 
 import com.rabbitmq.client.Channel;
-import com.yizhi.models.model.hospital.Schedule;
+import com.yizhi.models.model.medical.Schedule;
 import com.yizhi.models.vo.msm.MsmVo;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.Exchange;

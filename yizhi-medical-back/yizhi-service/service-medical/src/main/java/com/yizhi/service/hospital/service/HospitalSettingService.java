@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yizhi.models.model.hospital.HospitalSetting;
+import com.yizhi.models.model.medical.HospitalSetting;
 import com.yizhi.models.vo.order.SignInfoVo;
 
 public interface HospitalSettingService extends IService<HospitalSetting> {

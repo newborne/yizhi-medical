@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.client;
 
 
-import com.yizhi.models.vo.hospital.ScheduleOrderVo;
+import com.yizhi.models.vo.medical.ScheduleOrderVo;
 import com.yizhi.models.vo.order.SignInfoVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Repository;

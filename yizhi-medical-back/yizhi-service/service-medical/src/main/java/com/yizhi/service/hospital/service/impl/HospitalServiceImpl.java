@@ -1,8 +1,8 @@
 package com.yizhi.service.hospital.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.yizhi.models.model.hospital.Hospital;
-import com.yizhi.models.vo.hospital.HospitalQueryVo;
+import com.yizhi.models.model.medical.Hospital;
+import com.yizhi.models.vo.medical.HospitalQueryVo;
 import com.yizhi.service.dictionary.client.DictionaryFeignClient;
 import com.yizhi.service.hospital.repository.HospitalRepository;
 import com.yizhi.service.hospital.service.HospitalService;
@@ -59,7 +59,7 @@ public class HospitalServiceImpl implements HospitalService {
 
     //医院列表(条件查询分页)
     @Override
-    public Page<Hospital> findAll(Integer page, Integer limit, HospitalQueryVo hospitalQueryVo) {
+    public Page<Hospital> findPage(Integer page, Integer limit, HospitalQueryVo hospitalQueryVo) {
         //创建pageable对象
         Pageable pageable = PageRequest.of(page-1,limit);
         //创建条件匹配器
@@ -69,10 +69,10 @@ public class HospitalServiceImpl implements HospitalService {
         //hospitalSetQueryVo转换Hospital对象
         Hospital hospital = new Hospital();
         BeanUtils.copyProperties(hospitalQueryVo,hospital);
-        //创建对象
-        Example<Hospital> example = Example.of(hospital,matcher);
+
+        Example<Hospital> example=Example.of(hospital,matcher);
         //调用方法实现查询
-        Page<Hospital> pages = hospitalRepository.findAll(example, pageable);
+        Page<Hospital> pages = hospitalRepository.findAll(example,pageable);
 
         //获取查询list集合，遍历进行医院等级封装
         pages.getContent().stream().forEach(item -> {
@@ -118,7 +118,7 @@ public class HospitalServiceImpl implements HospitalService {
 
     //根据医院名称查询
     @Override
-    public List<Hospital> findAllByHospitalNameLike(String hospitalName) {
+    public List<Hospital> findListByHospitalNameLike(String hospitalName) {
         return hospitalRepository.findAllByHospitalNameLike(hospitalName);
     }
 
