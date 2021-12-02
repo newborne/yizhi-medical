@@ -89,7 +89,10 @@
             icon="el-icon-delete"
             @click="updateStatus(scope.row.id, 1)"
           >取消锁定</el-button>
-          <router-link :to="'/hospitalSetting/edit/' + scope.row.id">
+          <router-link
+            :to="'/hospitalSetting/edit/' + scope.row.id"
+            style="margin-left:10px"
+          >
             <el-button type="primary" size="mini" icon="el-icon-edit" />
           </router-link>
         </template>
@@ -105,7 +108,6 @@
       layout="total, prev, pager, next, jumper"
       @current-change="findHospitalSettingList"
     />
-
   </div>
 </template>
 

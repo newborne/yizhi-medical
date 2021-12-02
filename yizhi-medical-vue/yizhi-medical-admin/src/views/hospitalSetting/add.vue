@@ -16,7 +16,7 @@
       <el-form-item label="联系人手机">
         <el-input v-model="hospitalSetting.linkmanPhone" />
       </el-form-item>
-      <el-form-item>
+      <el-form-item align="center">
         <el-button type="primary" @click="saveOrUpdate">保存</el-button>
       </el-form-item>
     </el-form>

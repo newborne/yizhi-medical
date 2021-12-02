@@ -119,7 +119,7 @@ export default {
         this.list = response.data
       })
     },
-    getChildrens(tree, treeNode,resolve) {
+    getChildrens(tree, treeNode, resolve) {
       dictionaryApi.findChildrenListById(tree.id).then(response => {
         resolve(response.data)
       })

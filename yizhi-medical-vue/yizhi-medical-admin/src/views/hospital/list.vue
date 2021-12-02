@@ -53,7 +53,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column label="医院logo">
+      <el-table-column label="医院logo" width="100" align="center">
         <template slot-scope="scope">
           <img
             :src="'data:image/jpeg;base64,' + scope.row.logoData"
@@ -62,22 +62,33 @@
         </template>
       </el-table-column>
 
-      <el-table-column prop="hospitalName" label="医院名称" />
-      <el-table-column prop="param.hostypeString" label="等级" width="90" />
-      <el-table-column prop="param.fullAddress" label="详情地址" />
-      <el-table-column label="状态" width="80">
+      <el-table-column prop="hospitalName" label="医院名称" align="center" />
+      <el-table-column
+        prop="param.hospitalTypeString"
+        label="等级"
+        width="90"
+        align="center"
+      />
+      <el-table-column
+        prop="param.fullAddress"
+        label="详情地址"
+        align="center"
+      />
+      <el-table-column label="状态" width="80" align="center">
         <template slot-scope="scope">
           {{ scope.row.status === 0 ? '未上线' : '已上线' }}
         </template>
       </el-table-column>
-      <el-table-column prop="createTime" label="创建时间" />
+      <el-table-column prop="createTime" label="创建时间" align="center" />
 
       <el-table-column label="操作" width="230" align="center">
         <template slot-scope="scope">
           <router-link :to="'/medical/hospital/detail/' + scope.row.id">
             <el-button type="primary" size="mini">查看</el-button>
           </router-link>
+
           <router-link
+            style="margin-left:10px"
             :to="'/medical/hospital/schedule/' + scope.row.hospitalCode"
           >
             <el-button type="primary" size="mini">排班</el-button>
@@ -85,13 +96,15 @@
 
           <el-button
             v-if="scope.row.status == 1"
-            type="primary"
+            style="margin-left:10px"
+            type="danger"
             size="mini"
             @click="updateStatus(scope.row.id, 0)"
           >下线</el-button>
           <el-button
             v-if="scope.row.status == 0"
-            type="danger"
+            style="margin-left:10px"
+            type="primary"
             size="mini"
             @click="updateStatus(scope.row.id, 1)"
           >上线</el-button>
