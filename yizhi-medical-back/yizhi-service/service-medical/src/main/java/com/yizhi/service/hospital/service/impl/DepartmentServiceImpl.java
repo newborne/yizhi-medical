@@ -1,9 +1,9 @@
 package com.yizhi.service.hospital.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.yizhi.models.model.hospital.Department;
-import com.yizhi.models.vo.hospital.DepartmentQueryVo;
-import com.yizhi.models.vo.hospital.DepartmentVo;
+import com.yizhi.models.model.medical.Department;
+import com.yizhi.models.vo.medical.DepartmentQueryVo;
+import com.yizhi.models.vo.medical.DepartmentVo;
 import com.yizhi.service.hospital.repository.DepartmentRepository;
 import com.yizhi.service.hospital.service.DepartmentService;
 import org.springframework.beans.BeanUtils;
@@ -46,7 +46,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public Page<Department> findAll(int page, int limit, DepartmentQueryVo departmentQueryVo) {
+    public Page<Department> findPage(int page, int limit, DepartmentQueryVo departmentQueryVo) {
         // 创建Pageable对象，设置当前页和每页记录数
         //0是第一页
         Pageable pageable = PageRequest.of(page-1,limit);

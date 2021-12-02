@@ -5,13 +5,13 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yizhi.common.util.exception.YizhiException;
 import com.yizhi.common.util.result.ResultCodeEnum;
-import com.yizhi.models.model.hospital.BookingRule;
-import com.yizhi.models.model.hospital.Department;
-import com.yizhi.models.model.hospital.Hospital;
-import com.yizhi.models.model.hospital.Schedule;
-import com.yizhi.models.vo.hospital.BookingRuleVo;
-import com.yizhi.models.vo.hospital.ScheduleOrderVo;
-import com.yizhi.models.vo.hospital.ScheduleQueryVo;
+import com.yizhi.models.model.medical.BookingRule;
+import com.yizhi.models.model.medical.Department;
+import com.yizhi.models.model.medical.Hospital;
+import com.yizhi.models.model.medical.Schedule;
+import com.yizhi.models.vo.medical.BookingRuleVo;
+import com.yizhi.models.vo.medical.ScheduleOrderVo;
+import com.yizhi.models.vo.medical.ScheduleQueryVo;
 import com.yizhi.service.hospital.mapper.ScheduleMapper;
 import com.yizhi.service.hospital.repository.ScheduleRepository;
 import com.yizhi.service.hospital.service.DepartmentService;
@@ -76,7 +76,7 @@ public class ScheduleServiceImpl extends
 
     //查询排班接口
     @Override
-    public Page<Schedule> findAll(int page, int limit, ScheduleQueryVo scheduleQueryVo) {
+    public Page<Schedule> findPage(int page, int limit, ScheduleQueryVo scheduleQueryVo) {
         // 创建Pageable对象，设置当前页和每页记录数
         //0是第一页
         Pageable pageable = PageRequest.of(page-1,limit);

@@ -1,7 +1,7 @@
 package com.yizhi.service.hospital.repository;
 
 
-import com.yizhi.models.model.hospital.Department;
+import com.yizhi.models.model.medical.Department;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

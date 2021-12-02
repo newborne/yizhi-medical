@@ -1,16 +1,17 @@
 package com.yizhi.service.hospital.controller.api;
 
 import com.yizhi.common.util.result.Result;
-import com.yizhi.models.model.hospital.Hospital;
-import com.yizhi.models.model.hospital.Schedule;
-import com.yizhi.models.vo.hospital.DepartmentVo;
-import com.yizhi.models.vo.hospital.HospitalQueryVo;
-import com.yizhi.models.vo.hospital.ScheduleOrderVo;
+import com.yizhi.models.model.medical.Hospital;
+import com.yizhi.models.model.medical.Schedule;
+import com.yizhi.models.vo.medical.DepartmentVo;
+import com.yizhi.models.vo.medical.HospitalQueryVo;
+import com.yizhi.models.vo.medical.ScheduleOrderVo;
 import com.yizhi.models.vo.order.SignInfoVo;
 import com.yizhi.service.hospital.service.DepartmentService;
 import com.yizhi.service.hospital.service.HospitalService;
 import com.yizhi.service.hospital.service.HospitalSettingService;
 import com.yizhi.service.hospital.service.ScheduleService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Map;
 
+@Api(tags = "Yizhi-Medical-Api")
 @RestController
 @RequestMapping("/api/medical/hospital")
 public class MedicalApiController {
@@ -44,14 +46,14 @@ public class MedicalApiController {
     public Result findHospitalPage(@PathVariable Integer page,
                                @PathVariable Integer limit,
                                HospitalQueryVo hospitalQueryVo) {
-        Page<Hospital> hospitals = hospitalService.findAll(page, limit, hospitalQueryVo);
+        Page<Hospital> hospitals = hospitalService.findPage(page, limit, hospitalQueryVo);
         return Result.ok(hospitals);
     }
 
     @ApiOperation(value = "查-医院-by-hospitalName")
-    @GetMapping("findHospital/{hospitalName}")
-    public Result findHospital(@PathVariable String hospitalName) {
-        List<Hospital> list = hospitalService.findAllByHospitalNameLike(hospitalName);
+    @GetMapping("findHospitalList/{hospitalName}")
+    public Result findHospitalList(@PathVariable String hospitalName) {
+        List<Hospital> list = hospitalService.findListByHospitalNameLike(hospitalName);
         return Result.ok(list);
     }
 
@@ -64,7 +66,7 @@ public class MedicalApiController {
 
     @ApiOperation(value = "根据医院编号获取医院预约挂号详情")
     @GetMapping("hospitalItem/{hospitalCode}")
-    public Result findHospitalItem(@PathVariable String hospitalCode) {
+    public Result findHospitalItemByHospitalCode(@PathVariable String hospitalCode) {
         Map<String, Object> map = hospitalService.findItemByHospitalCode(hospitalCode);
         return Result.ok(map);
     }
@@ -97,7 +99,7 @@ public class MedicalApiController {
 
     @ApiOperation(value = "获取排班id获取排班数据")
     @GetMapping("findSchedule/{scheduleId}")
-    public Result findSchedule(@PathVariable String scheduleId) {
+    public Result findScheduleById(@PathVariable String scheduleId) {
         Schedule schedule = scheduleService.findById(scheduleId);
         return Result.ok(schedule);
     }

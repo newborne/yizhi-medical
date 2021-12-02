@@ -25,7 +25,7 @@ public class DictionaryController {
 
     //导入数据字典
     @ApiOperation(value = "导入")
-    @PostMapping("importData")
+    @PostMapping("import")
     public Result importDictionary(MultipartFile file) {
         dictionaryService.importData(file);
         return Result.ok();
@@ -33,30 +33,30 @@ public class DictionaryController {
 
     //导出数据字典
     @ApiOperation(value = "导出")
-    @GetMapping("exportData")
+    @GetMapping("export")
     public void exportDictionary(HttpServletResponse response) {
         dictionaryService.exportData(response);
     }
 
     //根据dictionaryCode获取下级节点
     @ApiOperation(value = "查子节点-by-dictionaryCode")
-    @GetMapping("findChild/{dictionaryCode}")
-    public Result findChlid(@PathVariable String dictionaryCode) {
-        List<Dictionary> list = dictionaryService.findChildByCode(dictionaryCode);
+    @GetMapping("children/dictionaryCode/{dictionaryCode}")
+    public Result findChlidrenList(@PathVariable String dictionaryCode) {
+        List<Dictionary> list = dictionaryService.findChildrenListByCode(dictionaryCode);
         return Result.ok(list);
     }
 
     //根据数据id查询子数据列表
     @ApiOperation(value = "查子节点-by-id")
-    @GetMapping("findChild/{id}")
-    public Result findChild(@PathVariable Long id) {
-        List<Dictionary> list = dictionaryService.findChlidById(id);
+    @GetMapping("children/id/{id}")
+    public Result findChildrenList(@PathVariable Long id) {
+        List<Dictionary> list = dictionaryService.findChlidrenListById(id);
         return Result.ok(list);
     }
 
-    //根据dictcode和value查询
+    //根据dictionaryCode和value查询
     @ApiOperation(value = "查名称-by-dictionary&value")
-    @GetMapping("getName/{dictionaryCode}/{value}")
+    @GetMapping("name/{dictionaryCode}/{value}")
     public String getName(@PathVariable String dictionaryCode,
                           @PathVariable String value) {
         String dictionaryName = dictionaryService.getName(dictionaryCode,value);
@@ -65,7 +65,7 @@ public class DictionaryController {
 
     //根据value查询
     @ApiOperation(value = "查名称-by-value")
-    @GetMapping("getName/{value}")
+    @GetMapping("name/{value}")
     public String getName(@PathVariable String value) {
         String dictionaryName = dictionaryService.getName("",value);
         return dictionaryName;
