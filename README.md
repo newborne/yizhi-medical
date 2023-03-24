@@ -3,6 +3,13 @@
 #### 介绍
 易知医疗挂号平台
 
+#### 目录说明
+
+- yizhi-medical-server 服务端
+- yizhi-medical-admin 后台管理
+- yizhi-medical-userWeb 用户端
+- yizhi-medical-hospitalWeb 医院端
+
 #### 软件架构
 软件架构说明
 
