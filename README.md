@@ -64,7 +64,7 @@
 
 ## Api文档
 
-- [易知医疗 (apifox.com)](https://apifox.com/apidoc/shared-be05ce7c-c0b1-4e26-a272-a8ffaae41a13)（）
+- [易知医疗 (apifox.com)](https://apifox.com/apidoc/shared-be05ce7c-c0b1-4e26-a272-a8ffaae41a13)
 
 ## UML建模
 
@@ -82,6 +82,8 @@
 
 - // TODO
 
-## 参与贡献，鸣谢
+## 参与贡献
+
+## 鸣谢
 
 - 尚医通项目
