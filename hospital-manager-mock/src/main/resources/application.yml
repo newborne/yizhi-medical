@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: hospital-manager-mock
-  profiles:
-    active: dev

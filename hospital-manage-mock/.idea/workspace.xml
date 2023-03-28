@@ -4,7 +4,611 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cdb70a5-eaf7-4bf5-b01c-e16bb12ad43b" name="变更" comment="" />
+    <list default="true" id="9cdb70a5-eaf7-4bf5-b01c-e16bb12ad43b" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/controller/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/controller/HospitalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/exception/YizhiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/mapper/HospitalSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/mapper/ScheduleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/model/BaseNoAutoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/model/HospitalSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/model/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/model/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/model/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/service/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/service/HospitalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/service/impl/ApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/service/impl/HospitalServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/util/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/util/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/util/ImageBase64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min14ed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/demo/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/layout-sd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/layout/meta/createTest.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/play-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/video-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/codemirror/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/datapicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/dropzone/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/dropzone/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/footable/fonts/footable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/footable/footable.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jqgrid/ui.jqgridffe4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/plyr/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/simditor/simditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/summernote/summernote-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/plugins/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/show.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/xietong/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/xietong/vis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/xuetong/vis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/xuetong/xuetong_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/fontawesome-webfont93e3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/common/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/common/jquery.select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/common/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/css/metroStyle/metroStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.all-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.core-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.excheck-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exhide-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/sd_js/validate.expand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/common/failurePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/common/meta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/common/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/department/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/department/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/frame/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/frame/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/frame/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/frame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/frame/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hospital/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hospital/createBatch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hospital/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hospitalSetting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/schedule/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/schedule/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/src/main/java/com/yizhi/gateway/config/SwaggerResourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/src/main/java/com/yizhi/gateway/filter/SwaggerHeaderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/src/main/java/com/yizhi/gateway/handler/SwaggerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/cms/ContentManagementSystem内容管理系统.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/HospitalManagerMockApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/HospitalManageMockApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/controller/ApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/controller/HospitalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/mapper/HospitalSettingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/mapper/OrderInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/mapper/ScheduleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/model/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/model/BaseNoAutoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/model/HospitalSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/model/OrderInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/model/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/service/ApiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/service/HospitalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/service/impl/ApiServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/service/impl/HospitalServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/BigDecimalUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/HttpRequestHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/ImageBase64Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/MD5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/PageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/PageModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/ResultCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/java/com/yizhi/hospital/util/YyghException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/hospital.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/bootstrap.min14ed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/demo/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/demo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/demo/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/demo/webuploader-demo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/font-awesome.min93e3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/layout-sd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/layout/meta/createTest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/login.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/patterns/header-profile-skin-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/patterns/header-profile-skin-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/patterns/header-profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/patterns/shattered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/img/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/img/error.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/img/play-pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/img/play-pause.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/img/video-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/blueimp/img/video-play.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/bootstrap-table/bootstrap-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/chosen/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/chosen/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/chosen/chosen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/clockpicker/clockpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/codemirror/ambiance.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/cropper/cropper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/dataTables/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/datapicker/datepicker3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/dropzone/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/dropzone/dropzone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/footable/fonts/footable.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/footable/fonts/footable.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/footable/fonts/footable.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/footable/fonts/footable.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/footable/fonts/footabled41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/footable/footable.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/iCheck/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/iCheck/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/iCheck/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/images/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/images/spritemap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/images/spritemap@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/jasny/jasny-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/jqgrid/ui.jqgridffe4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/jsTree/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/markdown/bootstrap-markdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/morris/morris-0.4.3.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/nouslider/jquery.nouislider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/plyr/plyr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/plyr/sprite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/simditor/simditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/steps/jquery.steps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/summernote/summernote-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/summernote/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/sweetalert/sweetalert.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/switchery/switchery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/toastr/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/treeview/bootstrap-treeview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/plugins/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/show.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/sso.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/style.min862f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xietong/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xietong/vis-network.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xietong/vis-timeline-graph2d.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xietong/vis.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xietong/vis.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xuetong/vis-network.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xuetong/vis-timeline-graph2d.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xuetong/vis.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xuetong/vis.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/css/xuetong/xuetong_main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/fontawesome-webfont93e3.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/fontawesome-webfont93e3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/fontawesome-webfont93e3.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/fontawesome-webfont93e3.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/fontawesome-webfont93e3.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/fontawesome-webfontd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/fonts/glyphicons-halflings-regulard41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/a9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/iconfont-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/index_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/loading-upload.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/login-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/p_big1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/p_big2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/p_big3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/profile_big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/profile_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/qr_code.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/su_loginbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/img/wenku_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/common/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/common/jquery.select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/common/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/contabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/content.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/hplus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/datePicker/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/extend/layer.ext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/layer.ext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/metisMenu/jquery.metisMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/pace/pace.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/validate/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/validate/messages_zh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/fa.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/awesomeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/line_conn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/metro.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/metroStyle/img/metro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/metroStyle/metroStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/1_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/1_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/diy/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/img/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/css/zTreeStyle/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery-1.4.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.all-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.all-3.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.core-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.core-3.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.excheck-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.excheck-3.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit-3.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exhide-3.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/plugins/ztree/js/jquery.ztree.exhide-3.5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/static/js/sd_js/validate.expand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/common/failurePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/common/meta.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/common/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/common/successPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/department/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/department/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/frame/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/frame/auth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/frame/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/frame/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/frame/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/frame/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/hospital/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/hospital/createBatch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/hospital/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/hospitalSetting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/schedule/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/main/resources/templates/schedule/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-manager-mock/src/test/java/com/atguigu/hospitalmanage/HospitalHospitalManagerMockApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-admin/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-admin/.env.development" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-admin/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-admin/.env.production" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-admin/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-admin/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-admin/src/views/hospital/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-admin/src/views/hospital/detail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-hospital-mock/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/.idea/ApifoxUploaderProjectSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/.idea/intellij-javadocs-4.0.1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/common-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-client/medical-client/medical-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/src/main/java/com/yizhi/common/util/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/src/main/java/com/yizhi/common/util/exception/YizhiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/exception/YizhiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/src/main/java/com/yizhi/common/util/helper/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/helper/JwtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/src/main/java/com/yizhi/common/util/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/src/main/java/com/yizhi/common/util/result/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/result/ResultCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/src/main/java/com/yizhi/common/util/utils/AuthContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/util/AuthContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/rabbit-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/rabbit-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/src/main/java/com/yizhi/rabbit/util/config/MQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/src/main/java/com/yizhi/util/rabbit/config/MQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/src/main/java/com/yizhi/rabbit/util/constant/MqConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/src/main/java/com/yizhi/util/rabbit/constant/MqConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/src/main/java/com/yizhi/rabbit/util/service/RabbitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/src/main/java/com/yizhi/util/rabbit/service/RabbitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/rabbit-util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/rabbit-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/service-util.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/src/main/java/com/yizhi/service/util/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/src/main/java/com/yizhi/service/util/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/src/main/java/com/yizhi/service/util/helper/HttpRequestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-util/common-util/src/main/java/com/yizhi/util/common/helper/HttpRequestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/src/main/java/com/yizhi/service/util/utils/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/util/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/src/main/java/com/yizhi/service/util/utils/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yizhi/hospital/util/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-common/service-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/enums/AuthStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/enums/AuthStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/enums/DictEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/enums/DictionaryEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/enums/OrderStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/enums/OrderStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/enums/PaymentStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/enums/PaymentStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/enums/PaymentTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/enums/PaymentTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/enums/RefundStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/enums/RefundStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/acl/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/acl/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/acl/RolePermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/RolePermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/acl/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/acl/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/base/BaseMongoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/base/BaseMongoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/cms/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/cms/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/dictionary/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/dictionary/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/medical/BookingRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/medical/BookingRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/medical/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/medical/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/medical/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/medical/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/medical/HospitalSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/medical/HospitalSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/medical/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/medical/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/order/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/order/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/order/PaymentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/order/PaymentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/order/RefundInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/order/RefundInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/user/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/user/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/user/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/user/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/model/user/UserLoginRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/user/UserLoginRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/acl/AssignVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/acl/AssignVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/acl/RoleQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/acl/RoleQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/acl/UserQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/acl/UserQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/dictionary/DictionaryExcelVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/dictionary/DictionaryExcelVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/medical/BookingRuleVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/medical/BookingRuleVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/medical/DepartmentQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/medical/DepartmentQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/medical/DepartmentVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/medical/DepartmentVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/medical/HospitalQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/medical/HospitalQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/medical/HospitalSettingQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/medical/HospitalSettingQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/medical/ScheduleOrderVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/medical/ScheduleOrderVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/medical/ScheduleQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/medical/ScheduleQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/msm/MsmVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/msm/MsmVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/order/OrderCountQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/order/OrderCountQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/order/OrderCountVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/order/OrderCountVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/order/OrderMqVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/order/OrderMqVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/order/OrderQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/order/OrderQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/order/SignInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/order/SignInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/user/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/user/LoginInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/LoginInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/user/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/user/LoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/user/RegisterVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/user/RegisterVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/user/UserAuthVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/user/UserAuthVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/src/main/java/com/yizhi/models/vo/user/UserInfoQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/vo/user/UserInfoQueryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-models/yizhi-models.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/src/main/java/com/yizhi/gateway/ServerGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/src/main/java/com/yizhi/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/src/main/java/com/yizhi/gateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/src/main/java/com/yizhi/gateway/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/src/main/java/com/yizhi/gateway/filter/AuthGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/src/main/java/com/yizhi/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-server-gateway/yizhi-server-gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/dictionary-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-client/dictionary-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/src/main/java/com/yizhi/service/dictionary/client/DictionaryFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-client/dictionary-client/src/main/java/com/yizhi/service/dictionary/client/DictionaryFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/dictionary-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/medical-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-client/medical-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/src/main/java/com/yizhi/service/medical/client/MedicalFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-client/medical-client/src/main/java/com/yizhi/service/medical/client/MedicalFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/medical-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/service-dictionary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/java/com/yizhi/service/dictionary/ServiceDictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/java/com/yizhi/service/dictionary/DictionaryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/java/com/yizhi/service/dictionary/config/DictionaryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/java/com/yizhi/service/dictionary/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/java/com/yizhi/service/dictionary/controller/DictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/java/com/yizhi/service/dictionary/controller/DictionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/java/com/yizhi/service/dictionary/listener/DictionaryListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/java/com/yizhi/service/dictionary/listener/DictionaryListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/java/com/yizhi/service/dictionary/mapper/DictionaryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/java/com/yizhi/service/dictionary/mapper/DictionaryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/java/com/yizhi/service/dictionary/service/DictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/java/com/yizhi/service/dictionary/service/DictionaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/java/com/yizhi/service/dictionary/service/impl/DictionaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/java/com/yizhi/service/dictionary/service/impl/DictionaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/dictionary-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-dictionary/target/service-dictionary-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/service-medical.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/ServiceMedicalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/MedicalServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/api/HospitalManagerApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/controller/api/HospitalManageApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/api/UserWebApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/controller/api/UserWebApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/config/HospitalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/config/MongoDbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/config/MongoDbConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/controller/admin/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/controller/HospitalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/controller/admin/HospitalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/controller/HospitalSettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/controller/admin/HospitalSettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/controller/admin/AclController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/controller/ScheduleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/controller/admin/ScheduleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/mapper/HospitalSettingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/mapper/HospitalSettingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/mapper/ScheduleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/mapper/ScheduleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/mapper/xml/HospitalSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/mapper/xml/HospitalSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/receiver/HospitalReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/receiver/HospitalReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/repository/HospitalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/repository/HospitalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/repository/ScheduleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/repository/ScheduleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/HospitalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/HospitalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/HospitalSettingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/HospitalSettingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/ScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/ScheduleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/impl/HospitalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/impl/HospitalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/impl/HospitalSettingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/impl/HospitalSettingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/java/com/yizhi/service/medical/service/impl/ScheduleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/java/com/yizhi/service/medical/service/impl/ScheduleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/classes/com/yizhi/service/hospital/mapper/xml/HospitalSettingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/medical-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-medical/target/service-medical-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/ServiceUserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/api/PatientApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/api/UserInfoApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/api/WeixinApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/config/UserConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/mapper/PatientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/mapper/xml/PatientMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/mapper/xml/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/service/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/service/impl/PatientServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/utils/ConstantWxPropertiesUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/java/com/yizhi/service/user/utils/HttpClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/service-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-model/src/main/java/com/yizhi/model/pojo/acl/AccessControlList访问控制列表.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yizhi-medical-server/yizhi-service/yizhi-service.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +632,7 @@
   </component>
   <component name="ProjectId" id="2NElMyu7s3Gsr0bF89GLXh7GRfc" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -40,7 +645,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Src/Doing/GitProjects/newborne/Individuals/yizhi-medical/hospital-manager-mock",
+    "last_opened_file_path": "D:/Src/Doing/GitProjects/newborne/Individuals/yizhi-medical/hospital-manage-mock",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,7 +653,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "apifox_uploader.settings.ApifoxUploaderConfigurable",
+    "spring.configuration.checksum": "739de4b5e1b904a65fb8937c3ba07d6c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -67,17 +673,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HospitalManagerMockApplication">
-    <configuration name="HospitalManagerMockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="hospital-manager-mock" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yizhi.hospital.HospitalManagerMockApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HospitalMockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="yizhi-medical-hospital-mock" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yizhi.hospital.HospitalMockApplication" />
+  <component name="RunManager">
+    <configuration name="HospitalManageMockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hospital-manage-mock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yizhi.hospital.HospitalManageMockApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,7 +692,10 @@
       <updated>1679237079918</updated>
       <workItem from="1679237081070" duration="5695000" />
       <workItem from="1679249975853" duration="669000" />
-      <workItem from="1679313899897" duration="532000" />
+      <workItem from="1679313899897" duration="387000" />
+      <workItem from="1679314443690" duration="1260000" />
+      <workItem from="1680015939948" duration="367000" />
+      <workItem from="1680016461731" duration="8878000" />
     </task>
     <servers />
   </component>

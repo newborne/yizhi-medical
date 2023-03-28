@@ -1,0 +1,54 @@
+<!-- 以下是Maven项目的pom.xml文件，用于管理项目的依赖和构建等配置 -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 父级项目的信息，包括groupId、artifactId和version -->
+    <parent>
+        <artifactId>yizhi-medical-server</artifactId>
+        <groupId>com.yizhi</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <!-- 当前项目的信息 -->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>yizhi-util</artifactId>
+    <packaging>pom</packaging> <!-- 该项目为pom项目，不生成可执行的jar包 -->
+    <!-- 子模块列表，即该项目所包含的子模块 -->
+    <modules>
+        <module>common-util</module>
+        <module>rabbit-util</module>
+    </modules>
+    <!-- 该项目所依赖的第三方库 -->
+    <dependencies>
+        <!-- Spring Boot Web框架 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <scope>provided</scope> <!-- provided表示该依赖在编译和测试时可用，但不会被打包到最终的jar包中 -->
+        </dependency>
+        <!-- MyBatis-Plus持久化框架 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Lombok插件，用于简化实体类的编写 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- Swagger文档生成工具 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <!-- fastjson，一个快速的JSON处理工具 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,7 +1,0 @@
-com\yizhi\service\dictionary\mapper\DictionaryMapper.class
-com\yizhi\service\dictionary\config\DictionaryConfig.class
-com\yizhi\service\dictionary\ServiceDictionaryApplication.class
-com\yizhi\service\dictionary\service\DictionaryService.class
-com\yizhi\service\dictionary\service\impl\DictionaryServiceImpl.class
-com\yizhi\service\dictionary\listener\DictionaryListener.class
-com\yizhi\service\dictionary\controller\DictionaryController.class

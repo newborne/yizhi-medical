@@ -10,7 +10,7 @@
           <th width="15%">医院名称</th>
           <td width="35%">
             <b style="font-size: 14px">{{ hospital.hospitalName }}</b> |
-            {{ hospital.param.hostypeString }}
+            {{ hospital.param.hospitalTypeString }}
           </td>
           <th width="15%">医院logo</th>
           <td width="35%">
@@ -22,7 +22,7 @@
         </tr>
         <tr>
           <th>医院编码</th>
-          <td>{{ hospital.hoscode }}</td>
+          <td>{{ hospital.hospitalCode }}</td>
           <th>地址</th>
           <td>{{ hospital.param.fullAddress }}</td>
         </tr>

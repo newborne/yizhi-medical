@@ -1,0 +1,45 @@
+<!--
+这是一个Maven项目的pom.xml文件，用于管理项目的依赖和构建
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--定义父项目-->
+    <parent>
+        <artifactId>yizhi-util</artifactId>
+        <groupId>com.yizhi</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <!--指定当前项目的model版本-->
+    <modelVersion>4.0.0</modelVersion>
+    <!--指定当前项目的artifactId-->
+    <artifactId>common-util</artifactId>
+    <!--定义项目所依赖的其他库-->
+    <dependencies>
+        <!--指定joda-time库的依赖-->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+        <!--指定jjwt库的依赖-->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+        </dependency>
+        <!--指定httpclient库的依赖-->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+        <!--指定spring-boot-starter-data-redis库的依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <!--指定commons-pool2库的依赖-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+    </dependencies>
+</project>

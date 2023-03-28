@@ -2,24 +2,28 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 定义项目的父模块 -->
     <parent>
         <artifactId>yizhi-medical-server</artifactId>
         <groupId>com.yizhi</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <!-- 定义项目的基本信息 -->
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <modules>
-        <module>service-medical</module>
-        <module>service-dictionary</module>
-        <module>service-user</module>
-    </modules>
     <artifactId>yizhi-service</artifactId>
+    <packaging>pom</packaging>
+    <!-- 定义项目的子模块 -->
+    <modules>
+        <module>medical-service</module>
+        <module>dictionary-service</module>
 
+    </modules>
+    <!-- 定义项目的依赖 -->
     <dependencies>
+        <!-- 项目内部依赖 -->
         <dependency>
             <groupId>com.yizhi</groupId>
-            <artifactId>yizhi-models</artifactId>
+            <artifactId>yizhi-model</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -29,68 +33,66 @@
         </dependency>
         <dependency>
             <groupId>com.yizhi</groupId>
-            <artifactId>service-util</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.yizhi</groupId>
             <artifactId>dictionary-client</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!--web-->
+        <!-- Spring Boot Web Starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <!--mybatis-plus-->
+        <!-- MyBatis Plus Starter -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
-        <!--mysql-->
+        <!-- MySQL Connector -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-        <!--开发者工具-->
+        <!-- Spring Boot DevTools -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-        <!-- 服务调用feign -->
+        <!-- Spring Cloud OpenFeign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-        <!-- 服务注册 -->
+        <!-- Alibaba Cloud Nacos Discovery -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+        <!-- FastJson -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
         </dependency>
-        <!--swagger-->
+        <!-- Swagger2 -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
         </dependency>
-        <!--swagger ui-->
+        <!-- Swagger UI -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
     </dependencies>
-
+    <!-- 定义项目的构建配置 -->
     <build>
         <plugins>
+            <!-- Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <!-- 定义项目的资源文件 -->
         <resources>
             <resource>
                 <directory>src/main/java</directory>
@@ -103,7 +105,8 @@
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
-                <includes> <include>**/*.yml</include>
+                <includes>
+                    <include>**/*.yml</include>
                     <include>**/*.properties</include>
                     <include>**/*.xml</include>
                 </includes>

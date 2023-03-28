@@ -1,0 +1,6 @@
+com\yizhi\gateway\config\SwaggerResourceConfig.class
+com\yizhi\gateway\config\CorsConfig.class
+com\yizhi\gateway\filter\AuthGlobalFilter.class
+com\yizhi\gateway\filter\SwaggerHeaderFilter.class
+com\yizhi\gateway\GatewayApplication.class
+com\yizhi\gateway\handler\SwaggerHandler.class

@@ -1,3 +1,0 @@
-com\yizhi\gateway\ServerGatewayApplication.class
-com\yizhi\gateway\config\CorsConfig.class
-com\yizhi\gateway\filter\AuthGlobalFilter.class

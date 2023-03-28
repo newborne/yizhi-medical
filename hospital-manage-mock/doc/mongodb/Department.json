@@ -1,0 +1,2306 @@
+[
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200050923",
+		"departName": "门诊部核酸检测门诊(东院)",
+		"intro": "门诊部核酸检测门诊(东院)",
+		"bigDepartCode": "44f162029abb45f9ff0a5f743da0650d",
+		"bigDepartName": "全部科室"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200050924",
+		"departName": "国际医疗部门诊",
+		"intro": "国际医疗部门诊",
+		"bigDepartCode": "44f162029abb45f9ff0a5f743da0650d",
+		"bigDepartName": "全部科室"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200050931",
+		"departName": "临床营养科(西院国际医疗)",
+		"intro": "临床营养科(西院国际医疗)",
+		"bigDepartCode": "44f162029abb45f9ff0a5f743da0650d",
+		"bigDepartName": "全部科室"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200050964",
+		"departName": "内分泌科互联网诊疗",
+		"intro": "内分泌科互联网诊疗",
+		"bigDepartCode": "44f162029abb45f9ff0a5f743da0650d",
+		"bigDepartName": "全部科室"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200051188",
+		"departName": "心内科互联网诊疗",
+		"intro": "心内科互联网诊疗",
+		"bigDepartCode": "44f162029abb45f9ff0a5f743da0650d",
+		"bigDepartName": "全部科室"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200051469",
+		"departName": "特需心理医学科门诊2",
+		"intro": "特需心理医学科门诊2",
+		"bigDepartCode": "44f162029abb45f9ff0a5f743da0650d",
+		"bigDepartName": "全部科室"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200041542",
+		"departName": "特需心内科门诊2",
+		"intro": "特需心内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200042374",
+		"departName": "特需消化内科门诊2",
+		"intro": "特需消化内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200040886",
+		"departName": "特需内分泌科门诊(西院)1",
+		"intro": "特需内分泌科门诊(西院)1",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200041246",
+		"departName": "特需呼吸内科门诊2",
+		"intro": "特需呼吸内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200041038",
+		"departName": "特需肾内科门诊2",
+		"intro": "特需肾内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200041244",
+		"departName": "特需血液内科门诊2",
+		"intro": "特需血液内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200044248",
+		"departName": "特需老年医学科门诊2",
+		"intro": "特需老年医学科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200040166",
+		"departName": "特需普通内科门诊1",
+		"intro": "特需普通内科门诊1",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200041666",
+		"departName": "内科门诊(西院)",
+		"intro": "内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200043118",
+		"departName": "普通内科全科门诊",
+		"intro": "普通内科全科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200045974",
+		"departName": "普通内科疑难病症门诊",
+		"intro": "普通内科疑难病症门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048285",
+		"departName": "特需肿瘤内科门诊2",
+		"intro": "特需肿瘤内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048369",
+		"departName": "特需普通内科门诊2",
+		"intro": "特需普通内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048378",
+		"departName": "卫干门诊(内科)",
+		"intro": "卫干门诊(内科)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048380",
+		"departName": "特需免疫内科门诊2",
+		"intro": "特需免疫内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048440",
+		"departName": "特需感染内科门诊2",
+		"intro": "特需感染内科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004002",
+		"departName": "内分泌科门诊(西院)",
+		"intro": "内分泌科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004004",
+		"departName": "特需内分泌科门诊2",
+		"intro": "特需内分泌科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004020",
+		"departName": "特需普通内科门诊(西院)",
+		"intro": "特需普通内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004014",
+		"departName": "肿瘤内科门诊",
+		"intro": "肿瘤内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003975",
+		"departName": "心内科门诊",
+		"intro": "心内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003976",
+		"departName": "心内科门诊(西院)",
+		"intro": "心内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003977",
+		"departName": "心内科高血压专科门诊",
+		"intro": "心内科高血压专科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003978",
+		"departName": "特需心内科门诊",
+		"intro": "特需心内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004005",
+		"departName": "神经科门诊",
+		"intro": "神经科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004006",
+		"departName": "神经科门诊(西院)",
+		"intro": "神经科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004007",
+		"departName": "神经内科癫痫门诊",
+		"intro": "神经内科癫痫门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004010",
+		"departName": "特需神经科门诊2",
+		"intro": "特需神经科门诊2",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003997",
+		"departName": "消化内科门诊",
+		"intro": "消化内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003998",
+		"departName": "消化内科门诊(西院)",
+		"intro": "消化内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003999",
+		"departName": "早期胃癌专科门诊",
+		"intro": "早期胃癌专科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004000",
+		"departName": "特需消化内科门诊",
+		"intro": "特需消化内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004001",
+		"departName": "内分泌科门诊",
+		"intro": "内分泌科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004003",
+		"departName": "特需内分泌科门诊",
+		"intro": "特需内分泌科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003989",
+		"departName": "免疫内科门诊",
+		"intro": "免疫内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003990",
+		"departName": "免疫内科门诊(西院)",
+		"intro": "免疫内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003991",
+		"departName": "特需免疫内科门诊",
+		"intro": "特需免疫内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003992",
+		"departName": "特需免疫内科门诊(西院)",
+		"intro": "特需免疫内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003993",
+		"departName": "呼吸内科门诊",
+		"intro": "呼吸内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003994",
+		"departName": "呼吸内科门诊(西院)",
+		"intro": "呼吸内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003995",
+		"departName": "戒烟门诊",
+		"intro": "戒烟门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003996",
+		"departName": "特需呼吸内科门诊",
+		"intro": "特需呼吸内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003979",
+		"departName": "肾内科门诊",
+		"intro": "肾内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003980",
+		"departName": "肾内科门诊(西院)",
+		"intro": "肾内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003981",
+		"departName": "特需肾内科门诊",
+		"intro": "特需肾内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003982",
+		"departName": "血液科门诊",
+		"intro": "血液科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003983",
+		"departName": "血友病门诊(西院)",
+		"intro": "血友病门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003984",
+		"departName": "特需血液内科门诊",
+		"intro": "特需血液内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003985",
+		"departName": "感染内科门诊",
+		"intro": "感染内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003986",
+		"departName": "感染内科热病门诊",
+		"intro": "感染内科热病门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003987",
+		"departName": "感染内科免疫功能低下门诊",
+		"intro": "感染内科免疫功能低下门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003988",
+		"departName": "特需感染内科门诊",
+		"intro": "特需感染内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003973",
+		"departName": "老年综合门诊",
+		"intro": "老年综合门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003974",
+		"departName": "特需老年综合门诊",
+		"intro": "特需老年综合门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200003972",
+		"departName": "内科门诊",
+		"intro": "内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004018",
+		"departName": "普通内科门诊",
+		"intro": "普通内科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004019",
+		"departName": "普通内科门诊(西院)",
+		"intro": "普通内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004015",
+		"departName": "肿瘤内科门诊(西院)",
+		"intro": "肿瘤内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004016",
+		"departName": "特需肿瘤内科门诊1",
+		"intro": "特需肿瘤内科门诊1",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004017",
+		"departName": "特需肿瘤内科门诊(西院)",
+		"intro": "特需肿瘤内科门诊(西院)",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004012",
+		"departName": "重症肌无力专科门诊",
+		"intro": "重症肌无力专科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004008",
+		"departName": "头疼专科门诊",
+		"intro": "头疼专科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004009",
+		"departName": "脑血管病专科门诊",
+		"intro": "脑血管病专科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004011",
+		"departName": "痴呆与脑白质病专科门诊",
+		"intro": "痴呆与脑白质病专科门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004134",
+		"departName": "肝炎门诊",
+		"intro": "肝炎门诊",
+		"bigDepartCode": "1c87253ca8aa8fc966a2443eeaac0fc1",
+		"bigDepartName": "内科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200045976",
+		"departName": "特需血管外科门诊2",
+		"intro": "特需血管外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200040164",
+		"departName": "特需胸外科门诊2",
+		"intro": "特需胸外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048287",
+		"departName": "乳腺外科乳癌化疗门诊(西院)",
+		"intro": "乳腺外科乳癌化疗门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048331",
+		"departName": "乳腺外科乳癌随访门诊(西院)",
+		"intro": "乳腺外科乳癌随访门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048412",
+		"departName": "特需整形外科门诊2",
+		"intro": "特需整形外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048490",
+		"departName": "泌尿外科专项诊疗门诊",
+		"intro": "泌尿外科专项诊疗门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048586",
+		"departName": "胸外科化疗专病门诊",
+		"intro": "胸外科化疗专病门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004041",
+		"departName": "特需神经外科门诊2",
+		"intro": "特需神经外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004051",
+		"departName": "心外科门诊",
+		"intro": "心外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004052",
+		"departName": "心外科成人门诊",
+		"intro": "心外科成人门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004053",
+		"departName": "特需心外科门诊1",
+		"intro": "特需心外科门诊1",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004054",
+		"departName": "特需心外科门诊2",
+		"intro": "特需心外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004049",
+		"departName": "特需泌尿外科门诊2",
+		"intro": "特需泌尿外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004072",
+		"departName": "特需肝脏外科门诊2",
+		"intro": "特需肝脏外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004027",
+		"departName": "特需基本外科门诊2",
+		"intro": "特需基本外科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004031",
+		"departName": "特需骨科门诊2",
+		"intro": "特需骨科门诊2",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004046",
+		"departName": "肾积水专科门诊",
+		"intro": "肾积水专科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004034",
+		"departName": "神经外科门诊",
+		"intro": "神经外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004035",
+		"departName": "神经外科门诊(西院)",
+		"intro": "神经外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004040",
+		"departName": "特需神经外科门诊",
+		"intro": "特需神经外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004059",
+		"departName": "血管外科门诊",
+		"intro": "血管外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004060",
+		"departName": "血管外科门诊(西院)",
+		"intro": "血管外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004061",
+		"departName": "动脉疾病专科门诊",
+		"intro": "动脉疾病专科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004062",
+		"departName": "特需血管外科门诊",
+		"intro": "特需血管外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004063",
+		"departName": "特需血管外科门诊(西院)",
+		"intro": "特需血管外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004032",
+		"departName": "胸外科门诊",
+		"intro": "胸外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004033",
+		"departName": "特需胸外科门诊",
+		"intro": "特需胸外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004066",
+		"departName": "特需整形外科门诊(西院)",
+		"intro": "特需整形外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004067",
+		"departName": "乳腺外科门诊",
+		"intro": "乳腺外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004068",
+		"departName": "乳腺外科门诊(西院)",
+		"intro": "乳腺外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004069",
+		"departName": "特需乳腺外科门诊(西院)1",
+		"intro": "特需乳腺外科门诊(西院)1",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004042",
+		"departName": "泌尿外科门诊",
+		"intro": "泌尿外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004043",
+		"departName": "泌尿外科男科门诊",
+		"intro": "泌尿外科男科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004044",
+		"departName": "泌尿外科门诊(西院)",
+		"intro": "泌尿外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004045",
+		"departName": "泌尿外科男科门诊(西院)",
+		"intro": "泌尿外科男科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004047",
+		"departName": "特需泌尿外科门诊",
+		"intro": "特需泌尿外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004070",
+		"departName": "肝脏外科门诊",
+		"intro": "肝脏外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004071",
+		"departName": "特需肝外科门诊",
+		"intro": "特需肝外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004022",
+		"departName": "外科门诊",
+		"intro": "外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004023",
+		"departName": "基本外科门诊",
+		"intro": "基本外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004025",
+		"departName": "基本外科门诊(西院)",
+		"intro": "基本外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004026",
+		"departName": "特需基本外科门诊1",
+		"intro": "特需基本外科门诊1",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004028",
+		"departName": "骨科门诊",
+		"intro": "骨科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004029",
+		"departName": "骨科门诊(西院)",
+		"intro": "骨科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004030",
+		"departName": "特需骨科门诊",
+		"intro": "特需骨科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004064",
+		"departName": "整形美容外科门诊",
+		"intro": "整形美容外科门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004116",
+		"departName": "急诊科",
+		"intro": "急诊科",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004065",
+		"departName": "整形美容外科门诊(西院)",
+		"intro": "整形美容外科门诊(西院)",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200039788",
+		"departName": "泌尿外科肾癌靶向治疗专病门诊",
+		"intro": "泌尿外科肾癌靶向治疗专病门诊",
+		"bigDepartCode": "cbc348c817edeffab9599ad12205fa78",
+		"bigDepartName": "外科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200046682",
+		"departName": "特需综合妇科门诊",
+		"intro": "特需综合妇科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200046684",
+		"departName": "特需妇科内分泌门诊2",
+		"intro": "特需妇科内分泌门诊2",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048276",
+		"departName": "妇泌中心(西院)",
+		"intro": "妇泌中心(西院)",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048413",
+		"departName": "特需普通妇科门诊",
+		"intro": "特需普通妇科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048441",
+		"departName": "特需肿瘤妇科门诊",
+		"intro": "特需肿瘤妇科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048447",
+		"departName": "特需妇科计划生育门诊",
+		"intro": "特需妇科计划生育门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048487",
+		"departName": "特需产科门诊",
+		"intro": "特需产科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048521",
+		"departName": "妇科计划生育门诊",
+		"intro": "妇科计划生育门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048522",
+		"departName": "综合妇科门诊",
+		"intro": "综合妇科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048523",
+		"departName": "妇科肿瘤门诊",
+		"intro": "妇科肿瘤门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004078",
+		"departName": "妇产科辅助生育中心",
+		"intro": "妇产科辅助生育中心",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004073",
+		"departName": "妇科门诊",
+		"intro": "妇科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004074",
+		"departName": "妇科门诊(西院)",
+		"intro": "妇科门诊(西院)",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004075",
+		"departName": "特需妇科门诊",
+		"intro": "特需妇科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004076",
+		"departName": "特需妇科门诊(西院)1",
+		"intro": "特需妇科门诊(西院)1",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004080",
+		"departName": "妇科内分泌门诊",
+		"intro": "妇科内分泌门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004081",
+		"departName": "特需妇科内分泌门诊",
+		"intro": "特需妇科内分泌门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004082",
+		"departName": "特需妇科内分泌门诊(西院)",
+		"intro": "特需妇科内分泌门诊(西院)",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004077",
+		"departName": "产科门诊",
+		"intro": "产科门诊",
+		"bigDepartCode": "17be7b5423b1782612f4a50608246fb4",
+		"bigDepartName": "妇产科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004084",
+		"departName": "儿科门诊",
+		"intro": "儿科门诊",
+		"bigDepartCode": "2543ade3aecd3f5a3e2329d068c1d367",
+		"bigDepartName": "儿科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004085",
+		"departName": "特需儿科门诊",
+		"intro": "特需儿科门诊",
+		"bigDepartCode": "2543ade3aecd3f5a3e2329d068c1d367",
+		"bigDepartName": "儿科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004094",
+		"departName": "变态反应科门诊",
+		"intro": "变态反应科门诊",
+		"bigDepartCode": "e7391935e2070acf94e87b5b6f104f68",
+		"bigDepartName": "变态反应科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004095",
+		"departName": "特需变态反应科门诊",
+		"intro": "特需变态反应科门诊",
+		"bigDepartCode": "e7391935e2070acf94e87b5b6f104f68",
+		"bigDepartName": "变态反应科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048325",
+		"departName": "特需皮肤科门诊2",
+		"intro": "特需皮肤科门诊2",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048377",
+		"departName": "皮科激光中心",
+		"intro": "皮科激光中心",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048468",
+		"departName": "普通皮科复诊",
+		"intro": "普通皮科复诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048529",
+		"departName": "特需口腔科门诊2",
+		"intro": "特需口腔科门诊2",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004107",
+		"departName": "皮肤科白癜风副教授门诊",
+		"intro": "皮肤科白癜风副教授门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004108",
+		"departName": "皮肤科普通皮科门诊",
+		"intro": "皮肤科普通皮科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004119",
+		"departName": "美容皮肤科门诊",
+		"intro": "美容皮肤科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004086",
+		"departName": "眼科门诊",
+		"intro": "眼科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004087",
+		"departName": "眼科门诊(西院)",
+		"intro": "眼科门诊(西院)",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004088",
+		"departName": "特需眼科门诊",
+		"intro": "特需眼科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004089",
+		"departName": "眼科糖尿病视网膜病专科",
+		"intro": "眼科糖尿病视网膜病专科",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004096",
+		"departName": "口腔科门诊",
+		"intro": "口腔科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004097",
+		"departName": "口腔科门诊(西院)",
+		"intro": "口腔科门诊(西院)",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004101",
+		"departName": "口腔科住院医门诊",
+		"intro": "口腔科住院医门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004098",
+		"departName": "口腔科洁牙门诊",
+		"intro": "口腔科洁牙门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004099",
+		"departName": "特需口腔外科门诊",
+		"intro": "特需口腔外科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004100",
+		"departName": "口腔科特需门诊(西院)",
+		"intro": "口腔科特需门诊(西院)",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004090",
+		"departName": "耳鼻喉科门诊",
+		"intro": "耳鼻喉科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004091",
+		"departName": "耳鼻喉科门诊(西院)",
+		"intro": "耳鼻喉科门诊(西院)",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004093",
+		"departName": "特需耳鼻喉科门诊",
+		"intro": "特需耳鼻喉科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004102",
+		"departName": "皮科门诊",
+		"intro": "皮科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004103",
+		"departName": "皮科门诊(西院)",
+		"intro": "皮科门诊(西院)",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004104",
+		"departName": "皮肤科性病门诊",
+		"intro": "皮肤科性病门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004106",
+		"departName": "特需皮肤科门诊",
+		"intro": "特需皮肤科门诊",
+		"bigDepartCode": "2feb85b952a4dcd6dbf832100f6ef595",
+		"bigDepartName": "五官"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200041040",
+		"departName": "特需中医科门诊2",
+		"intro": "特需中医科门诊2",
+		"bigDepartCode": "7dafa91626a45481feefb3d1a84c7984",
+		"bigDepartName": "中医科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048480",
+		"departName": "卫干门诊(中医科)",
+		"intro": "卫干门诊(中医科)",
+		"bigDepartCode": "7dafa91626a45481feefb3d1a84c7984",
+		"bigDepartName": "中医科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004112",
+		"departName": "中医科针灸室(西院)",
+		"intro": "中医科针灸室(西院)",
+		"bigDepartCode": "7dafa91626a45481feefb3d1a84c7984",
+		"bigDepartName": "中医科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004110",
+		"departName": "中医科针灸室",
+		"intro": "中医科针灸室",
+		"bigDepartCode": "7dafa91626a45481feefb3d1a84c7984",
+		"bigDepartName": "中医科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004109",
+		"departName": "中医科门诊",
+		"intro": "中医科门诊",
+		"bigDepartCode": "7dafa91626a45481feefb3d1a84c7984",
+		"bigDepartName": "中医科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004111",
+		"departName": "中医科门诊(西院)",
+		"intro": "中医科门诊(西院)",
+		"bigDepartCode": "7dafa91626a45481feefb3d1a84c7984",
+		"bigDepartName": "中医科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004113",
+		"departName": "特需中医科门诊1",
+		"intro": "特需中医科门诊1",
+		"bigDepartCode": "7dafa91626a45481feefb3d1a84c7984",
+		"bigDepartName": "中医科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048262",
+		"departName": "临床营养科西院门诊",
+		"intro": "临床营养科西院门诊",
+		"bigDepartCode": "4dcb42d3a6ca39589f20bcd160903ae9",
+		"bigDepartName": "营养科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200047302",
+		"departName": "特需营养科门诊1",
+		"intro": "特需营养科门诊1",
+		"bigDepartCode": "4dcb42d3a6ca39589f20bcd160903ae9",
+		"bigDepartName": "营养科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004133",
+		"departName": "营养科咨询门诊",
+		"intro": "营养科咨询门诊",
+		"bigDepartCode": "4dcb42d3a6ca39589f20bcd160903ae9",
+		"bigDepartName": "营养科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200040878",
+		"departName": "多发性硬化专科门诊",
+		"intro": "多发性硬化专科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200040182",
+		"departName": "运动障碍病专科门诊",
+		"intro": "运动障碍病专科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048482",
+		"departName": "特需病理科门诊",
+		"intro": "特需病理科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048483",
+		"departName": "病理科门诊",
+		"intro": "病理科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004057",
+		"departName": "麻醉科门诊",
+		"intro": "麻醉科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004124",
+		"departName": "放疗科门诊",
+		"intro": "放疗科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004125",
+		"departName": "放疗科门诊(西院)",
+		"intro": "放疗科门诊(西院)",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004126",
+		"departName": "特需放疗科门诊",
+		"intro": "特需放疗科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004117",
+		"departName": "心理医学科门诊",
+		"intro": "心理医学科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004118",
+		"departName": "特需心理医学科门诊1",
+		"intro": "特需心理医学科门诊1",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004123",
+		"departName": "介入治疗门诊(放射科)",
+		"intro": "介入治疗门诊(放射科)",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004130",
+		"departName": "超声介入门诊",
+		"intro": "超声介入门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004129",
+		"departName": "物理医学康复科门诊",
+		"intro": "物理医学康复科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004127",
+		"departName": "物理医学康复科门诊(西院)",
+		"intro": "物理医学康复科门诊(西院)",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004120",
+		"departName": "肠外肠内营养科门诊",
+		"intro": "肠外肠内营养科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004122",
+		"departName": "特需肠外肠内营养科门诊",
+		"intro": "特需肠外肠内营养科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004131",
+		"departName": "核医学科门诊",
+		"intro": "核医学科门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004132",
+		"departName": "特需核医学门诊",
+		"intro": "特需核医学门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004055",
+		"departName": "麻醉科",
+		"intro": "麻醉科",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004056",
+		"departName": "麻醉科疼痛门诊",
+		"intro": "麻醉科疼痛门诊",
+		"bigDepartCode": "a4e171f4cf9b6816acdfb9ae62c414d7",
+		"bigDepartName": "专科"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200040142",
+		"departName": "肾内科IGA肾病专病门诊",
+		"intro": "肾内科IGA肾病专病门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048338",
+		"departName": "检验科门诊",
+		"intro": "检验科门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048491",
+		"departName": "门诊部疑难病会诊中心(东院)",
+		"intro": "门诊部疑难病会诊中心(东院)",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048571",
+		"departName": "加速器治疗室(放疗科)(西院)",
+		"intro": "加速器治疗室(放疗科)(西院)",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048575",
+		"departName": "生殖中心门诊(西院)",
+		"intro": "生殖中心门诊(西院)",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004013",
+		"departName": "帕金森专病门诊",
+		"intro": "帕金森专病门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004037",
+		"departName": "癫痫门诊",
+		"intro": "癫痫门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004021",
+		"departName": "老年医学科门诊",
+		"intro": "老年医学科门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004038",
+		"departName": "神经外科垂体专病门诊",
+		"intro": "神经外科垂体专病门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004039",
+		"departName": "神经外科脊髓疾病专科门诊",
+		"intro": "神经外科脊髓疾病专科门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004048",
+		"departName": "泌尿外科泌尿结石门诊",
+		"intro": "泌尿外科泌尿结石门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004050",
+		"departName": "泌尿外科膀胱癌专科门诊",
+		"intro": "泌尿外科膀胱癌专科门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004024",
+		"departName": "基本外科肠造口门诊",
+		"intro": "基本外科肠造口门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004092",
+		"departName": "耳聋基因筛查遗传门诊",
+		"intro": "耳聋基因筛查遗传门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004128",
+		"departName": "特需康复理疗门诊2",
+		"intro": "特需康复理疗门诊2",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004036",
+		"departName": "疼痛门诊",
+		"intro": "疼痛门诊",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004058",
+		"departName": "特需麻醉科门诊2",
+		"intro": "特需麻醉科门诊2",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004135",
+		"departName": "针灸按摩室(西院)",
+		"intro": "针灸按摩室(西院)",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004121",
+		"departName": "肠外肠内营养科门诊(西院)",
+		"intro": "肠外肠内营养科门诊(西院)",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200041160",
+		"departName": "特需放射科门诊1",
+		"intro": "特需放射科门诊1",
+		"bigDepartCode": "0551a547cc19d3d09f2e57bd2931b7d0",
+		"bigDepartName": "其它"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048271",
+		"departName": "国际医疗(儿科)",
+		"intro": "国际医疗(儿科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048272",
+		"departName": "国际医疗(预防接种)",
+		"intro": "国际医疗(预防接种)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048273",
+		"departName": "国际医疗(神经科)",
+		"intro": "国际医疗(神经科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048274",
+		"departName": "国际医疗(胸外科)",
+		"intro": "国际医疗(胸外科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048278",
+		"departName": "国际医疗(内分泌科)",
+		"intro": "国际医疗(内分泌科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048279",
+		"departName": "基本外科门诊(西院国际医疗)",
+		"intro": "基本外科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048280",
+		"departName": "内分泌科门诊(西院国际医疗)",
+		"intro": "内分泌科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048281",
+		"departName": "国际医疗(消化内科)",
+		"intro": "国际医疗(消化内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048282",
+		"departName": "国际医疗(普通内科)",
+		"intro": "国际医疗(普通内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048283",
+		"departName": "国际医疗(皮肤科)",
+		"intro": "国际医疗(皮肤科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048286",
+		"departName": "消化内科门诊(西院国际医疗)",
+		"intro": "消化内科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048288",
+		"departName": "国际医疗(感染内科)",
+		"intro": "国际医疗(感染内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048289",
+		"departName": "国际医疗(变态反应科)",
+		"intro": "国际医疗(变态反应科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048290",
+		"departName": "国际医疗(免疫内科)",
+		"intro": "国际医疗(免疫内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048293",
+		"departName": "国际医疗(中医科)",
+		"intro": "国际医疗(中医科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048294",
+		"departName": "国际医疗(呼吸内科)",
+		"intro": "国际医疗(呼吸内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048297",
+		"departName": "国际医疗(美容外科)",
+		"intro": "国际医疗(美容外科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048298",
+		"departName": "国际医疗(产科)",
+		"intro": "国际医疗(产科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048299",
+		"departName": "医学美容中心外科门诊(西院国际医疗)",
+		"intro": "医学美容中心外科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048300",
+		"departName": "国际医疗(血管外科)",
+		"intro": "国际医疗(血管外科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048301",
+		"departName": "核医学科(西院国际医疗)",
+		"intro": "核医学科(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048304",
+		"departName": "国际医疗(妇科内分泌)",
+		"intro": "国际医疗(妇科内分泌)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048308",
+		"departName": "变态（过敏）反应科门诊(西院国际医疗)",
+		"intro": "变态（过敏）反应科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048309",
+		"departName": "免疫内科门诊(西院国际医疗)",
+		"intro": "免疫内科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048310",
+		"departName": "国际医疗(骨科)",
+		"intro": "国际医疗(骨科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048311",
+		"departName": "口腔科门诊(西院国际医疗)",
+		"intro": "口腔科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048312",
+		"departName": "国际医疗(泌尿外科)",
+		"intro": "国际医疗(泌尿外科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048313",
+		"departName": "国际医疗(核医学科)",
+		"intro": "国际医疗(核医学科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048314",
+		"departName": "内分泌与生殖妇科中心门诊(西院国际医疗)",
+		"intro": "内分泌与生殖妇科中心门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048315",
+		"departName": "国际医疗(血液科)",
+		"intro": "国际医疗(血液科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048316",
+		"departName": "国际医疗(美容皮肤科)",
+		"intro": "国际医疗(美容皮肤科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048317",
+		"departName": "国际医疗(耳鼻喉科)",
+		"intro": "国际医疗(耳鼻喉科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048318",
+		"departName": "国际医疗(神经外科)",
+		"intro": "国际医疗(神经外科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048319",
+		"departName": "肿瘤内科门诊(西院国际医疗)",
+		"intro": "肿瘤内科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048320",
+		"departName": "耳鼻喉科门诊(西院国际医疗)",
+		"intro": "耳鼻喉科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048326",
+		"departName": "国际医疗(针灸按摩室)",
+		"intro": "国际医疗(针灸按摩室)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048327",
+		"departName": "国际医疗(心内科)",
+		"intro": "国际医疗(心内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048328",
+		"departName": "国际医疗(口腔科)",
+		"intro": "国际医疗(口腔科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048329",
+		"departName": "国际医疗(麻醉科)",
+		"intro": "国际医疗(麻醉科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048330",
+		"departName": "神经科门诊(西院国际医疗)",
+		"intro": "神经科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048332",
+		"departName": "呼吸内科门诊(西院国际医疗)",
+		"intro": "呼吸内科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048333",
+		"departName": "国际医疗(物理医学康复科)",
+		"intro": "国际医疗(物理医学康复科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048334",
+		"departName": "心内科门诊(西院国际医疗)",
+		"intro": "心内科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048335",
+		"departName": "肾内科门诊(西院国际医疗)",
+		"intro": "肾内科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048346",
+		"departName": "国际医疗(基本外科)",
+		"intro": "国际医疗(基本外科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048347",
+		"departName": "乳腺外科门诊(西院国际医疗)",
+		"intro": "乳腺外科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048348",
+		"departName": "国际医疗(肾内科)",
+		"intro": "国际医疗(肾内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048349",
+		"departName": "皮肤科门诊(西院国际医疗)",
+		"intro": "皮肤科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048350",
+		"departName": "国际医疗(眼科)",
+		"intro": "国际医疗(眼科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048352",
+		"departName": "国际医疗(肝脏外科)",
+		"intro": "国际医疗(肝脏外科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048353",
+		"departName": "眼科门诊(西院国际医疗)",
+		"intro": "眼科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048355",
+		"departName": "麻醉科(西院国际医疗)",
+		"intro": "麻醉科(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048356",
+		"departName": "国际医疗(肿瘤内科)",
+		"intro": "国际医疗(肿瘤内科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048366",
+		"departName": "国际医疗(营养科)",
+		"intro": "国际医疗(营养科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048368",
+		"departName": "国际医疗(放射治疗科)",
+		"intro": "国际医疗(放射治疗科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048379",
+		"departName": "国际医疗部特约门诊",
+		"intro": "国际医疗部特约门诊",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048465",
+		"departName": "物理医学康复科(西院国际医疗)",
+		"intro": "物理医学康复科(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048467",
+		"departName": "泌尿外科门诊(西院国际医疗)",
+		"intro": "泌尿外科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048470",
+		"departName": "国际医疗(肠外肠内营养科)",
+		"intro": "国际医疗(肠外肠内营养科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048485",
+		"departName": "国际医疗(老年医学科)",
+		"intro": "国际医疗(老年医学科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048486",
+		"departName": "普通内科门诊(西院国际医疗)",
+		"intro": "普通内科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048513",
+		"departName": "医学美容中心门诊(西院国际医疗)",
+		"intro": "医学美容中心门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048524",
+		"departName": "国际医疗(妇科肿瘤)",
+		"intro": "国际医疗(妇科肿瘤)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048525",
+		"departName": "国际医疗(综合妇科)",
+		"intro": "国际医疗(综合妇科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048526",
+		"departName": "国际医疗(妇科计划生育)",
+		"intro": "国际医疗(妇科计划生育)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048536",
+		"departName": "骨科门诊(西院国际医疗)",
+		"intro": "骨科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048559",
+		"departName": "国际医疗(放射科)",
+		"intro": "国际医疗(放射科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048585",
+		"departName": "老年医学门诊(西院国际医疗)",
+		"intro": "老年医学门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200048644",
+		"departName": "儿科门诊(西院国际医疗)",
+		"intro": "儿科门诊(西院国际医疗)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004114",
+		"departName": "国际医疗(妇科)",
+		"intro": "国际医疗(妇科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	},
+	{
+		"hospitalCode": "1000_0",
+		"departCode": "200004115",
+		"departName": "国际医疗(心理医学科)",
+		"intro": "国际医疗(心理医学科)",
+		"bigDepartCode": "1e452d84823e025229c72c23d100a464",
+		"bigDepartName": "国际医疗部"
+	}
+]

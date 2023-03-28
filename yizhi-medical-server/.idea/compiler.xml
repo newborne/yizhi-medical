@@ -2,35 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-medical" />
         <module name="common-util" />
-        <module name="yizhi-server-gateway" />
-        <module name="service-user" />
         <module name="medical-client" />
         <module name="rabbit-util" />
-        <module name="service-dictionary" />
+        <module name="dictionary-service" />
         <module name="dictionary-client" />
-        <module name="service-util" />
-        <module name="yizhi-models" />
+        <module name="yizhi-model" />
+        <module name="yizhi-gateway" />
+        <module name="medical-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-util" options="-parameters" />
       <module name="dictionary-client" options="-parameters" />
+      <module name="dictionary-service" options="-parameters" />
       <module name="medical-client" options="-parameters" />
+      <module name="medical-service" options="-parameters" />
       <module name="rabbit-util" options="-parameters" />
-      <module name="service-dictionary" options="-parameters" />
-      <module name="service-medical" options="-parameters" />
-      <module name="service-user" options="-parameters" />
-      <module name="service-util" options="-parameters" />
-      <module name="yizhi-models" options="-parameters" />
-      <module name="yizhi-server-gateway" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="yizhi-gateway" options="-parameters" />
+      <module name="yizhi-model" options="-parameters" />
     </option>
   </component>
 </project>

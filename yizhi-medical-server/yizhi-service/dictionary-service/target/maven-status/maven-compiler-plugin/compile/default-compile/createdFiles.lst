@@ -1,0 +1,7 @@
+com\yizhi\service\dictionary\mapper\DictionaryMapper.class
+com\yizhi\service\dictionary\DictionaryServiceApplication.class
+com\yizhi\service\dictionary\config\MybatisPlusConfig.class
+com\yizhi\service\dictionary\service\DictionaryService.class
+com\yizhi\service\dictionary\service\impl\DictionaryServiceImpl.class
+com\yizhi\service\dictionary\listener\DictionaryListener.class
+com\yizhi\service\dictionary\controller\DictionaryController.class

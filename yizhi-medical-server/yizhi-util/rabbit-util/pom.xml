@@ -1,0 +1,27 @@
+<!-- 以下是Maven项目的pom.xml文件，用于管理项目的依赖和构建等配置 -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 父级项目的信息，包括groupId、artifactId和version -->
+    <parent>
+        <artifactId>yizhi-util</artifactId>
+        <groupId>com.yizhi</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <!-- 当前项目的信息 -->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>rabbit-util</artifactId>
+    <!-- 该项目所依赖的第三方库 -->
+    <dependencies>
+        <!-- Spring Boot Actuator，用于监控和管理应用程序 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- Spring Cloud Bus AMQP，用于在分布式系统中传播状态变化 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+    </dependencies>
+</project>

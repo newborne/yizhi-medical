@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 定义项目的父模块 -->
+    <parent>
+        <artifactId>yizhi-medical-server</artifactId>
+        <groupId>com.yizhi</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <!-- 定义项目的基本信息 -->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>yizhi-client</artifactId>
+    <packaging>pom</packaging>
+    <!-- 定义项目的子模块 -->
+    <modules>
+        <module>dictionary-client</module>
+        <module>medical-client</module>
+    </modules>
+    <!-- 定义项目的依赖 -->
+    <dependencies>
+        <!-- Spring Cloud OpenFeign -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- 项目内部依赖 -->
+        <dependency>
+            <groupId>com.yizhi</groupId>
+            <artifactId>yizhi-model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yizhi</groupId>
+            <artifactId>common-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,102 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion> <!-- 模型版本 -->
+    <parent> <!-- 父项目 -->
+        <groupId>org.springframework.boot</groupId> <!-- 父项目组ID -->
+        <artifactId>spring-boot-starter-parent</artifactId> <!-- 父项目ID -->
+        <version>2.2.1.RELEASE</version> <!-- 父项目版本号 -->
+        <relativePath/> <!-- 从哪里找到父项目 -->
+    </parent>
+    <groupId>com.yizhi</groupId> <!-- 本项目组ID -->
+    <artifactId>hospital-manage-mock</artifactId> <!-- 本项目ID -->
+    <version>0.0.1-SNAPSHOT</version> <!-- 本项目版本号 -->
+    <name>hospital-manage-mock</name> <!-- 本项目名称 -->
+    <description>Demo project for Spring Boot</description> <!-- 本项目描述 -->
+    <properties> <!-- 属性 -->
+        <java.version>1.8</java.version> <!-- Java版本 -->
+    </properties>
+    <dependencies> <!-- 依赖 -->
+        <!-- Spring Boot Web Starter，提供Spring MVC和Tomcat等Web开发基础功能 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- MyBatis-Plus Starter，提供MyBatis的增强功能 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <!-- MySQL数据库驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.46</version>
+        </dependency>
+        <!-- Lombok，提供简化Java代码编写的工具 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- Spring Boot Thymeleaf Starter，提供使用Thymeleaf模板引擎的支持 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <!-- FastJson，提供快速的JSON解析功能 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.29</version>
+        </dependency>
+        <!-- Swagger，提供API文档生成和测试的功能 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <!-- Spring Boot DevTools，提供开发者工具支持 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <!-- Joda-Time，提供日期时间处理工具 -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+        </dependency>
+        <!-- Commons-Codec，提供编码解码功能 -->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.13</version>
+        </dependency>
+        <!-- Spring Boot Test Starter，提供单元测试支持 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+    <build> <!-- 构建配置 -->
+        <plugins>
+            <!-- Spring Boot Maven插件，用于打包和运行Spring Boot应用 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

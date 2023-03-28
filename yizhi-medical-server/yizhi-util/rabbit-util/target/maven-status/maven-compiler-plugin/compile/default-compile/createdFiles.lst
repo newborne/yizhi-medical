@@ -1,0 +1,3 @@
+com\yizhi\util\rabbit\constant\MqConst.class
+com\yizhi\util\rabbit\config\MQConfig.class
+com\yizhi\util\rabbit\service\RabbitService.class

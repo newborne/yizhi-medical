@@ -1,44 +1,87 @@
 # yizhi-medical
 
-#### 介绍
-易知医疗挂号平台
+## 介绍
 
-#### 目录说明
+> 易知医疗挂号平台——尚医通项目按部就班复现，由于在学习原项目时容易搞混数据库之间的关系以及各类命名，所以复现时对各方面进行了优化，如有不足欢迎指出。
 
-- yizhi-medical-server 服务端
-- yizhi-medical-admin 后台管理
-- yizhi-medical-userWeb 用户端
-- yizhi-medical-hospitalWeb 医院端
+## 创新点
 
-#### 软件架构
-软件架构说明
+- 对复杂项目解耦，注重模块化设计
+- 将Swagger与Gateway进一步结合，同时引入Apifox文档
+
+- 丰富注释
+
+- URL接口地址优化
+- 模块，包名优化
+- 依赖优化
+- 数据库命名、字段优化
+
+## 目录说明（你的Star是我持续跟进更新的动力）
+
+> 列个目录，数据库分开放便于理解
+
+- yizhi-medical-server 医疗挂号服务端
+  - yizhi-service
+    - [x] dictionary-service（Done✓）
+    - [x] medical-service（后台管理微服务）（Done✓）
+    - [ ] order-service（Not Yet）
+    - [ ] user-service（Not Yet）
+    - [ ] msm（Not Yet）
+    - [ ] oss（Not Yet）
+    - [ ] task（Not Yet）
+    - [ ] statistics（Not Yet）
+
+  - doc
+    - mysql
+      - medical_common.sql（字典）
+      - medical_admin.sql
+        - hospital_setting（多个医院设置管理，下发给医院认证key）
+
+      - medical_order.sql（Web订单）
+      - medical_user.sql（Web用户）
+
+- yizhi-medical-admin 医疗挂号后台管理（基于Vue的版本非最新Typescript版本[xpromise/syt-admin (gitee.com)](https://gitee.com/xxpromise/syt-admin)）
+  - [x] 数据管理（Done✓）
+  - [x] 医院管理（Done✓）
+  - [ ] 会员管理（Not Yet）
+  - [ ] 订单管理（Not Yet）
+  - [ ] 统计管理（Not Yet）
+
+- yizhi-medical-web 医疗挂号用户端（Not Yet）
+- hospital-manage-mock 模拟某个医院的后台管理（Done✓）
+  - doc
+    - mongodb（海量数据存储模拟上传）
+      - Department.json
+      - Hospital.json
+      - Schedule.json
+
+    - mysql
+      - medical_hospital_manage.sql（医院模拟数据）
+        - hospital_setting（仅当前医院设置一条数据）
+        - order_info（当前医院订单）
+        - schedule（当前医院排班）
 
 
-#### 安装教程
+## Api文档
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- [易知医疗 (apifox.com)](https://apifox.com/apidoc/shared-be05ce7c-c0b1-4e26-a272-a8ffaae41a13)（）
 
-#### 使用说明
+## UML建模
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- // TODO
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## 软件架构
+- // TODO
 
 
-#### 特技
+## 安装教程
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- // TODO
+
+## 使用说明
+
+- // TODO
+
+## 参与贡献，鸣谢
+
+- 尚医通项目
