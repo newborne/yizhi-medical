@@ -87,3 +87,7 @@
 ## 鸣谢
 
 - 尚医通项目
+
+## 项目地址
+- [Gitee](https://gitee.com/newborne/yizhi-medical)
+- [Github](https://github.com/newborne/yizhi-medical)
