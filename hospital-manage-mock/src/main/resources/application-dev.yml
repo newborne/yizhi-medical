@@ -18,7 +18,7 @@ spring:
     port: 6379
     database: 0
     timeout: 1800000
-    password: Bujidao0
+    password: 密码
     lettuce:
       pool:
         max-active: 20 #最大连接数
@@ -30,7 +30,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://mysql-server:3306/medical_hospital_manage?characterEncoding=utf-8&useSSL=false
     username: root
-    password: Bujidao0
+    password: 密码
     hikari:
       connection-test-query: SELECT 1
       connection-timeout: 60000
